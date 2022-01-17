@@ -13,7 +13,7 @@ from ..settings import USER_AGENT_LIST
 from scrapy_splash import SplashRequest,SplashFormRequest
 
 class YahooStocksSpider(scrapy.Spider):
-    name = 'sherdog_stats'
+    name = "yahoo_crawler"
     allowed_domains = ["finance.yahoo.com","https://finance.yahoo.com/"]
     # start_urls = ['https://www.sherdog.com/events/recent']
     # https://www.sherdog.com/events/recent/267-page
@@ -22,7 +22,7 @@ class YahooStocksSpider(scrapy.Spider):
         "ITEM_PIPELINES": {
             'yahoo.pipelines.YahooStocksPipeline': 199,
         },
-        "CLOSESPIDER_ITEMCOUNT": 132
+        "CLOSESPIDER_ITEMCOUNT": 44
     }
 
     configure_logging(install_root_handler=False)
@@ -57,7 +57,7 @@ class YahooStocksSpider(scrapy.Spider):
         self.locality = ""
         self.country = ""
 
-        self.url = "https://www.sherdog.com/events/recent"
+        self.url = "https://finance.yahoo.com"
         self.script = """
                          function main(splash)
                              local cookies = splash:get_cookies()
@@ -98,11 +98,11 @@ class YahooStocksSpider(scrapy.Spider):
                       """
 
     def start_requests(self):
-        yield SplashRequest(url=self.url,callback=self.parseFirstEvent,\
-            endpoint="execute",args={"lua_source": self.script2},
+        yield SplashRequest(url=self.url,callback=self.parseYahoo, \
+            endpoint="execute",args={"lua_source": self.script2}, \
             headers={"User-Agent": random.choice(USER_AGENT_LIST)})
 
-    def parseFirstEvent(self,response):
+    def parseYahoo(self,response):
         try:
             # splash renders with body tag
             trTag = checkEmpty(response.xpath("//table[@class='event']/tbody/tr[contains(@class,'odd') or contains(@class,'even')]"))
@@ -219,220 +219,4 @@ class YahooStocksSpider(scrapy.Spider):
 
         except Exception as ex:
             print("exception: %s" % ex)
-
-    def parseFighterStats(self,response):
-        try:
-            resetFighterStats(self)
-
-            fighterName = checkEmpty(response.xpath("//div[@class='module bio_fighter vcard']/h1/span/text()").get())
-            if (fighterName != "None"):
-                self.fighterName = fighterName.lower()
-            else:
-                self.fighterName = "None"
-
-            birthDate = checkEmpty(response.xpath("//div[@class='birth_info']/span/span/text()").get())
-            if (birthDate != "None"):
-                setBirthDate(self,birthDate)
-            else:
-                self.birthDate = "None"
-
-            age = checkEmpty(response.xpath("//div[@class='birth_info']/span/strong/text()").get())
-            if (age != "None"):
-                setAge(self,age)
-            else:
-                self.age = "None"
-
-            height = checkEmpty(response.xpath("//div[@class='size_info']/span[@class='item height']/strong/text()").get())
-            if (height != "None"):
-                setHeight(self,height)
-            else:
-                self.height = "None"
-
-            weight = checkEmpty(response.xpath("//div[@class='size_info']/span[@class='item weight']/strong/text()").get())
-            if (weight != "None"):
-                setWeight(self,weight)
-            else:
-                self.weight = "None"
-
-            fighterClass = checkEmpty(response.xpath("//div[@class ='size_info']/h6/strong/a/text()").get())
-            if (fighterClass != "None"):
-                self.fighterClass = fighterClass
-            else:
-                self.fighterClass = ""
-
-            win = checkEmpty(response.xpath("//div[@class='bio_graph']/span[@class='card']/span[2]/text()").get())
-            if (win != "None"):
-                self.win = win
-            else:
-                self.win = ""
-
-            loss = checkEmpty(response.xpath("//div[@class='bio_graph loser']/span[@class='card']/span[2]/text()").get())
-            if (loss != "None"):
-                self.loss = loss
-            else:
-                self.loss = ""
-
-            locality = checkEmpty(response.xpath("//div[@class='birth_info']/span[@class='item birthplace']/span/span[@class='locality']/text()").get())
-            if (locality != "None"):
-                setLocality(self,locality)
-            else:
-                self.locality = "None"
-
-            country = checkEmpty(response.xpath("//div[@class='birth_info']/span[@class='item birthplace']/strong[@itemprop='nationality']/text()").get())
-            if (country != "None"):
-                setCountry(self,country)
-            else:
-                self.country = "None"
-
-            loader = loadFighterItem(self,response)
-            yield loader.load_item()
-
-        except Exception as ex:
-            print("exception: {x}".format(x=ex))
-
-class SherdogFighterSpider(CrawlSpider):
-    name = "sherdog_fighter"
-    allowed_domains = ["www.sherdog.com","sherdog.com"]
-    start_urls = ["https://www.sherdog.com"]
-    custom_settings = {
-        "ITEM_PIPELINES": {
-            'sherdog.pipelines.SherdogFighterPipeline': 275,
-        },
-        "CLOSESPIDER_ITEMCOUNT": 159
-    }
-    handle_httpstatus_list = [403]
-
-    configure_logging(install_root_handler=False)
-    logging.basicConfig(filename='log.txt',format='%(levelname)s: %(message)s', \
-        level=logging.INFO,filemode="w+"
-    )
-
-    rules = (
-        # extract links matching fighter and parse with spider's method
-        Rule(LinkExtractor(allow=('fighter/'),deny=()),
-             process_request="parseFromRule"),
-    )
-
-    def __init__(self,*args,**kwargs):
-        super(SherdogFighterSpider,self).__init__(*args,**kwargs)
-        self.fighterName = ""
-        self.birthDate = ""
-        self.age = ""
-        self.height = ""
-        self.weight = ""
-        self.association = ""
-        self.fighterClass = ""
-        self.win = ""
-        self.loss = ""
-        self.locality = ""
-        self.country = ""
-
-        self.count = 0
-        # self.url = "https://www.sherdog.com"
-        self.script = """
-                         function main(splash,args)
-                             local cookies = splash:get_cookies()
-                             splash:init_cookies(cookies)
-                             assert(splash:go(splash.args.url))
-                             assert(splash:wait(1.5))
-
-                             return {
-                                 cookies,
-                                 html = splash:html(),
-                                 -- png = splash:png(),
-                                 -- har = splash:har()
-                             }
-                         end
-                      """
-
-    def parseFromRule(self,request,htmlResponse):
-        # error: spider must return request, item, or None, got 'generator'
-        # return instead of yield generator
-        return SplashRequest(url=request.url,callback=self.parseFighter,
-            endpoint="execute",args={"lua_source": self.script},
-            headers={"User-Agent": random.choice(USER_AGENT_LIST)})
-
-    def parseFighter(self,response):
-        try:
-            print("here...")
-            resetFighterStats(self)
-            # //div[@class ='birth_info']/span/span/text()
-
-            fighterName = checkEmpty(response.xpath("//div[@class='module bio_fighter vcard']/h1/span/text()").get())
-            if (fighterName != "None"):
-                self.fighterName = fighterName.lower()
-            else:
-                self.fighterName = "None"
-
-            birthDate = checkEmpty(response.xpath("//div[@class='birth_info']/span/span/text()").get())
-            if (birthDate != "None"):
-                setBirthDate(self, birthDate)
-            else:
-                self.birthDate = "None"
-
-            age = checkEmpty(response.xpath("//div[@class='birth_info']/span/strong/text()").get())
-            if (age != "None"):
-                setAge(self, age)
-            else:
-                self.age = "None"
-
-            height = checkEmpty(response.xpath("//div[@class='size_info']/span[@class='item height']/strong/text()").get())
-            if (height != "None"):
-                setHeight(self, height)
-            else:
-                self.height = "None"
-
-            weight = checkEmpty(response.xpath("//div[@class='size_info']/span[@class='item weight']/strong/text()").get())
-            if (weight != "None"):
-                setWeight(self,weight)
-            else:
-                self.weight = "None"
-
-            association = checkEmpty(response.xpath("//h5/strong/span/a/span/text()").get())
-            if (association != "None"):
-                setAssociation(self,association)
-            else:
-                self.association = ""
-
-            fighterClass = checkEmpty(response.xpath("//div[@class ='size_info']/h6/strong/a/text()").get())
-            if (fighterClass != "None"):
-                self.fighterClass = str(fighterClass).lower()
-            else:
-                self.fighterClass = ""
-
-            win = checkEmpty(response.xpath("//div[@class='bio_graph']/span[@class='card']/span[2]/text()").get())
-            if (win != "None"):
-                self.win = win
-            else:
-                self.win = ""
-
-            loss = checkEmpty(response.xpath("//div[@class='bio_graph loser']/span[@class='card']/span[2]/text()").get())
-            if (loss != "None"):
-                self.loss = loss
-            else:
-                self.loss = ""
-
-            locality = checkEmpty(response.xpath(
-                "//div[@class='birth_info']/span[@class='item birthplace']/span/span[@class='locality']/text()").get())
-            if (locality != "None"):
-                setLocality(self, locality)
-            else:
-                self.locality = "None"
-
-            country = checkEmpty(response.xpath("//div[@class='birth_info']/span[@class='item birthplace']/strong[@itemprop='nationality']/text()").get())
-            if (country != "None"):
-                setCountry(self, country)
-            else:
-                self.country = "None"
-
-            loader = loadFighterItem(self, response)
-            yield loader.load_item()
-
-        except Exception as ex:
-            print("error => %s" % ex)
-            logging.info("error => {0}".format(ex))
-
-
-
-
 

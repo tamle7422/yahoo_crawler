@@ -11,7 +11,7 @@ from datetime import datetime
 
 class YahooStocksPipeline:
     def __init__(self):
-        self.outputFinanceDir = "yahoo/csv_files/finance"
+        self.outputFinanceDir = "csv_files/finance"
         self.financeList = ["fighter1Name","fighter1Result","fighter2Name","fighter2Result", \
             "fighterMethodResult"]
 
@@ -33,25 +33,25 @@ class YahooStocksPipeline:
 
         today = datetime.today()
         dt = datetime(today.year,today.month,today.day)
-        self.specificEventFileName = "yahoo_" + self.checkMonthDay(dt.month) + "_" + self.checkMonthDay(dt.day) + "_"\
+        self.financeFileName = "yahoo_finance" + self.checkMonthDay(dt.month) + "_" + self.checkMonthDay(dt.day) + "_"\
             + str(dt.year) + "_.csv"
 
-        absolutePathSpecificEvent = os.path.join(os.getcwd(),self.outputSpecificEventDir)
-        self.specificEventWriter = open(os.path.join(absolutePathSpecificEvent,self.specificEventFileName),'wb+')
-        self.specificEventExporter = CsvItemExporter(self.specificEventWriter)
-        self.specificEventExporter.fields_to_export = self.specificEventList
-        self.specificEventExporter.start_exporting()
+        absolutePathFinance = os.path.join(os.getcwd(),self.outputFinanceDir)
+        self.financeWriter = open(os.path.join(absolutePathFinance,self.financeFileName),'wb+')
+        self.financeExporter = CsvItemExporter(self.financeWriter)
+        self.financeExporter.fields_to_export = self.financeList
+        self.financeExporter.start_exporting()
 
     def spider_closed(self,spider):
-        self.specificEventExporter.finish_exporting()
-        self.specificEventWriter.close()
+        self.financeExporter.finish_exporting()
+        self.financeWriter.close()
 
     def process_item(self,item,spider):
         if (isinstance(item,FinanceItem)):
             if (len(item) == 0):
                 return item
             else:
-                self.specificEventExporter.export_item(item)
+                self.financeExporter.export_item(item)
                 return item
 
     def checkMonthDay(self,dayOrMonth):

@@ -63,7 +63,7 @@ DOWNLOADER_MIDDLEWARES = {
 # configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "yahoo.pipelines.YahooPipeline": 300,
+    "yahoo.pipelines.YahooStocksPipeline": 300,
 }
 # enable and configure the AutoThrottle extension (disabled by default)
 # see https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -79,7 +79,7 @@ AUTOTHROTTLE_START_DELAY = 5.25
 
 # enable and configure HTTP caching (disabled by default)
 # see https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-HTTPCACHE_ENABLED = False
+HTTPCACHE_ENABLED = True
 # HTTPCACHE_EXPIRATION_SECS = 10
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = [403]
