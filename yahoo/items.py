@@ -4,7 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 import scrapy
 
-class FighterItem(scrapy.Item):
+class FinanceItem(scrapy.Item):
     fighterName = scrapy.Field()
     birthDate = scrapy.Field()
     age = scrapy.Field()

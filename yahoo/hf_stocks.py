@@ -1,10 +1,10 @@
 import re
 from scrapy.loader import ItemLoader
-from .items import FighterItem
+from .items import FinanceItem
 import logging
 from .switch_month import switchMonthThreeLetters
 
-def resetFighterStats(self):
+def resetFinance(self):
     self.birthDate = ""
     self.age = ""
     self.height = ""

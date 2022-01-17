@@ -8,13 +8,13 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.utils.log import configure_logging
 from ..hf_stocks import checkEmpty,resetFightCard,loadEventItem,checkHeight,setBirthDate,setDate, \
     setEventNameTitleUrl,createUrl,checkFightResult,loadFightCardItem,setFirstRowFightCard,setAge,setHeight, \
-    setWeight,setCountry,setLocality,resetFighterStats,loadFighterItem,setLocation,setAssociation
+    setWeight,setCountry,setLocality,resetFinance,loadFighterItem,setLocation,setAssociation
 from ..settings import USER_AGENT_LIST
 from scrapy_splash import SplashRequest,SplashFormRequest
 
-class SherdogStatsSpider(scrapy.Spider):
+class YahooStocksSpider(scrapy.Spider):
     name = 'sherdog_stats'
-    allowed_domains = ['www.sherdog.com','sherdog.com']
+    allowed_domains = ["finance.yahoo.com","https://finance.yahoo.com/"]
     # start_urls = ['https://www.sherdog.com/events/recent']
     # https://www.sherdog.com/events/recent/267-page
 
@@ -33,7 +33,7 @@ class SherdogStatsSpider(scrapy.Spider):
     )
 
     def __init__(self,*args,**kwargs):
-        super(SherdogStatsSpider,self).__init__(*args,**kwargs)
+        super(YahooStocksSpider,self).__init__(*args,**kwargs)
         self.eventUrlList = []
         self.date = ""
         self.eventName = ""

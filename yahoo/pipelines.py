@@ -6,18 +6,18 @@ import os,re
 from sys import platform
 from scrapy import signals
 from scrapy.exporters import CsvItemExporter
-from .items import FighterItem
+from .items import FinanceItem
 from datetime import datetime
 
 class YahooStocksPipeline:
     def __init__(self):
-        self.outputStocksDir = "yahoo/csv_files"
-        self.stocksList = ["fighter1Name","fighter1Result","fighter2Name","fighter2Result", \
+        self.outputFinanceDir = "yahoo/csv_files/finance"
+        self.financeList = ["fighter1Name","fighter1Result","fighter2Name","fighter2Result", \
             "fighterMethodResult"]
 
-        self.stocksWriter = ""
-        self.stocksFileName = ""
-        self.stocksExporter = ""
+        self.financeWriter = ""
+        self.financeFileName = ""
+        self.financeExporter = ""
 
     @classmethod
     def from_crawler(cls,crawler):
@@ -29,13 +29,11 @@ class YahooStocksPipeline:
     def spider_opened(self,spider):
         # check system; change if on windows
         if (platform != "linux"):
-            self.outputEventDir = "csv_files\\event"
-            self.outputFightCardDir = "csv_files\\fight_card"
-            self.outputFighterDir = "csv_files\\fighter"
+            self.outputFinanceDir = "csv_files\\finance"
 
         today = datetime.today()
         dt = datetime(today.year,today.month,today.day)
-        self.specificEventFileName = "yahoo_stocks_" + self.checkMonthDay(dt.month) + "_" + self.checkMonthDay(dt.day) + "_"\
+        self.specificEventFileName = "yahoo_" + self.checkMonthDay(dt.month) + "_" + self.checkMonthDay(dt.day) + "_"\
             + str(dt.year) + "_.csv"
 
         absolutePathSpecificEvent = os.path.join(os.getcwd(),self.outputSpecificEventDir)
@@ -49,7 +47,7 @@ class YahooStocksPipeline:
         self.specificEventWriter.close()
 
     def process_item(self,item,spider):
-        if (isinstance(item,FightCardItem)):
+        if (isinstance(item,FinanceItem)):
             if (len(item) == 0):
                 return item
             else:
