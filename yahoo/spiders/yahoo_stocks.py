@@ -57,6 +57,8 @@ class YahooStocksSpider(scrapy.Spider):
         self.locality = ""
         self.country = ""
 
+        self.textFileDir = "text_files"
+
         self.url = "https://finance.yahoo.com"
         self.script = """
                          function main(splash)
@@ -98,6 +100,21 @@ class YahooStocksSpider(scrapy.Spider):
                       """
 
     def start_requests(self):
+        try:
+            print(os.getcwd())
+            fileReader = open(os.path.join(self.textFileDir,"NYSE.txt"),"r")
+            next(fileReader)
+            companyList = fileReader.readlines()
+
+            for i in companyList:
+                print(i)
+
+
+
+        except Exception as ex:
+            print("exception => error opening text file for reading --- {0}".format(ex))
+
+
         yield SplashRequest(url=self.url,callback=self.parseYahoo, \
             endpoint="execute",args={"lua_source": self.script2}, \
             headers={"User-Agent": random.choice(USER_AGENT_LIST)})

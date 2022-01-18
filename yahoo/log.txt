@@ -16,7 +16,7 @@ INFO: Overridden settings:
  'SPIDER_MODULES': ['yahoo.spiders'],
  'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                '(KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'}
-INFO: Telnet Password: b58d0409a587dfef
+INFO: Telnet Password: 89c7fbb1ebbee915
 INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
@@ -55,8 +55,4 @@ WARNING: /home/le/Desktop/programming/python/yahoo_crawler/lib/python3.8/site-pa
   warnings.warn(message, URLWarning)
 
 INFO: Telnet console listening on 127.0.0.1:6023
-WARNING: /home/le/Desktop/programming/python/yahoo_crawler/lib/python3.8/site-packages/scrapy_splash/request.py:42: ScrapyDeprecationWarning: Call to deprecated function to_native_str. Use to_unicode instead.
-  url = to_native_str(url)
-
-DEBUG: Crawled (200) <GET https://finance.yahoo.com via http://localhost:8050/execute> (referer: None)
 INFO: Received SIGINT, shutting down gracefully. Send again to force 
