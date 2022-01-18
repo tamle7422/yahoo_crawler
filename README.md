@@ -1,2 +1,2 @@
 
-### Crawling yahoo stocks.
+### Crawling yahoo stocks
