@@ -34,28 +34,8 @@ class YahooStocksSpider(scrapy.Spider):
 
     def __init__(self,*args,**kwargs):
         super(YahooStocksSpider,self).__init__(*args,**kwargs)
-        self.eventUrlList = []
-        self.date = ""
-        self.eventName = ""
-        self.eventTitle = ""
-        self.location = ""
-
-        self.fighter1Name = ""
-        self.fighter2Name = ""
-        self.fighter1Result = ""
-        self.fighter2Result = ""
-        self.fighterMethodResult = ""
-
-        self.fighterName = ""
-        self.birthDate = ""
-        self.age = ""
-        self.height = ""
-        self.weight = ""
-        self.fighterClass = ""
-        self.win = ""
-        self.loss = ""
-        self.locality = ""
-        self.country = ""
+        self.symbol = ""
+        self.company = ""
 
         self.textFileDir = "text_files"
 
@@ -107,17 +87,30 @@ class YahooStocksSpider(scrapy.Spider):
             companyList = fileReader.readlines()
 
             for i in companyList:
-                print(i)
+                combineStr = ""
+                splitStr = i.split("\t")
+                self.symbol = checkEmpty(splitStr[0].strip())
+                self.company = splitStr[1].strip()
 
+
+                print("")
+
+                print("")
+
+
+                if (self.symbol != "None"):
+
+                    self.url = "https://finance.yahoo.com/quote/" + self.symbol
+                    yield SplashRequest(url=self.url, callback=self.parseYahoo, \
+                        endpoint="execute", args={"lua_source": self.script2}, \
+                        headers={"User-Agent": random.choice(USER_AGENT_LIST)})
 
 
         except Exception as ex:
             print("exception => error opening text file for reading --- {0}".format(ex))
 
 
-        yield SplashRequest(url=self.url,callback=self.parseYahoo, \
-            endpoint="execute",args={"lua_source": self.script2}, \
-            headers={"User-Agent": random.choice(USER_AGENT_LIST)})
+
 
     def parseYahoo(self,response):
         try:
