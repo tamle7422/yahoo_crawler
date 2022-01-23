@@ -6,7 +6,7 @@ import logging
 from scrapy.spiders import CrawlSpider,Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.utils.log import configure_logging
-from ..hf_stocks import checkEmpty,resetFightCard,loadEventItem,checkHeight,setBirthDate,setDate, \
+from ..hf_yahoo import checkEmpty,resetFightCard,loadEventItem,checkHeight,setBirthDate,setDate, \
     setEventNameTitleUrl,createUrl,checkFightResult,loadFightCardItem,setFirstRowFightCard,setAge,setHeight, \
     setWeight,setCountry,setLocality,resetFinance,loadFighterItem,setLocation,setAssociation
 from ..settings import USER_AGENT_LIST
@@ -25,12 +25,12 @@ class YahooStocksSpider(scrapy.Spider):
         "CLOSESPIDER_ITEMCOUNT": 44
     }
 
-    configure_logging(install_root_handler=False)
-    logging.basicConfig(
-        filename='log.txt',
-        format='%(levelname)s: %(message)s',
-        level=logging.INFO,filemode="w+"
-    )
+    # configure_logging(install_root_handler=False)
+    # logging.basicConfig(
+    #     filename='log.txt',
+    #     format='%(levelname)s: %(message)s',
+    #     level=logging.INFO,filemode="w+"
+    # )
 
     def __init__(self,*args,**kwargs):
         super(YahooStocksSpider,self).__init__(*args,**kwargs)
@@ -40,6 +40,8 @@ class YahooStocksSpider(scrapy.Spider):
         self.textFileDir = "text_files"
 
         self.url = "https://finance.yahoo.com"
+        self.urlList = []
+
         self.script = """
                          function main(splash)
                              local cookies = splash:get_cookies()
@@ -93,13 +95,7 @@ class YahooStocksSpider(scrapy.Spider):
                 self.company = splitStr[1].strip()
 
 
-                print("")
-
-                print("")
-
-
                 if (self.symbol != "None"):
-
                     self.url = "https://finance.yahoo.com/quote/" + self.symbol
                     yield SplashRequest(url=self.url, callback=self.parseYahoo, \
                         endpoint="execute", args={"lua_source": self.script2}, \
@@ -109,59 +105,30 @@ class YahooStocksSpider(scrapy.Spider):
         except Exception as ex:
             print("exception => error opening text file for reading --- {0}".format(ex))
 
-
-
-
     def parseYahoo(self,response):
         try:
             # splash renders with body tag
-            trTag = checkEmpty(response.xpath("//table[@class='event']/tbody/tr[contains(@class,'odd') or contains(@class,'even')]"))
-            if (trTag != "None"):
-                for i in trTag:
-                    setDate(self,i)
-                    setEventNameTitleUrl(self,i,response)
+            self.urlList.append(response.url)
 
-                    location = checkEmpty(i.xpath(".//td[4]/span/text()").get())
-                    if (location != "None"):
-                        setLocation(self,location)
-                    else:
-                        self.location = "None"
+            currentPrice = checkEmpty(response.xpath("//div[contains(@class,'D(ib)')]/fin-streamer[contains(@class,'Fw(b)')]/text()").get())
+            if (currentPrice != "None"):
+                self.currentPrice = currentPrice
+            else:
+                self.currentPrice = "None"
 
-                    loader = loadEventItem(self,response)
-                    yield loader.load_item()
-                    yield SplashRequest(url=self.eventUrl,callback=self.parseFightCard,\
-                        endpoint="execute",args={"lua_source": self.script2},\
-                        headers={"User-Agent": random.choice(USER_AGENT_LIST)})
+            print("")
 
-            createUrl(self)
-            for aUrl in self.eventUrlList:
-                yield SplashRequest(url=aUrl,callback=self.parseEvent,\
-                    endpoint="execute",args={"lua_source": self.script2}, \
-                    headers={"User-Agent": random.choice(USER_AGENT_LIST)})
+
+            # loader = loadEventItem(self,response)
+            # yield loader.load_item()
+            # yield SplashRequest(url=self.eventUrl,callback=self.parseFightCard,\
+            #     endpoint="execute",args={"lua_source": self.script2},\
+            #     headers={"User-Agent": random.choice(USER_AGENT_LIST)})
 
         except Exception as ex:
-            logging.info("error => {0}".format(ex))
-            print("error => %s" % ex)
+            print("exception => error in parse yahoo --- {0}".format(ex))
 
-    def parseEvent(self,response):
-        try:
-            trTag = checkEmpty(response.xpath("//table[@class='event']/tbody/tr[contains(@class,'odd') or contains(@class,'even')]"))
-            if (trTag != "None"):
-                for i in trTag:
-                    setDate(self,i)
-                    setEventNameTitleUrl(self,i,response)
 
-                    location = checkEmpty(i.xpath(".//td[4]/span/text()").get())
-                    if (location != "None"):
-                        setLocation(self,location)
-                    else:
-                        self.location = "None"
-
-                    loader = loadEventItem(self,response)
-                    yield loader.load_item()
-
-        except Exception as ex:
-            print("exception: {y}".format(y=ex))
 
     def parseFightCard(self,response):
         try:

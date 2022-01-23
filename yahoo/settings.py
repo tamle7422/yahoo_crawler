@@ -6,6 +6,8 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+from .hf_yahoo import printTime
+import pathlib
 
 BOT_NAME = 'yahoo'
 SPIDER_MODULES = ['yahoo.spiders']
@@ -23,7 +25,7 @@ CONCURRENT_REQUESTS = 2
 # configure a delay for requests for the same website (default: 0)
 # see https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # see also autothrottle settings and docs
-DOWNLOAD_DELAY = 2.5
+DOWNLOAD_DELAY = 2.25
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -76,6 +78,14 @@ AUTOTHROTTLE_START_DELAY = 5.25
 #AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
 #AUTOTHROTTLE_DEBUG = False
+
+# logging
+logTime = printTime()
+pathLog = "log"
+pathlib.Path(pathLog).mkdir(parents=True,exist_ok=True)
+
+LOG_FILE = f'{pathLog}/{logTime}.log'
+LOG_LEVEL = "INFO"
 
 # enable and configure HTTP caching (disabled by default)
 # see https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
