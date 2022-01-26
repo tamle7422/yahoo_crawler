@@ -36,6 +36,9 @@ class YahooStocksSpider(scrapy.Spider):
         super(YahooStocksSpider,self).__init__(*args,**kwargs)
         self.symbol = ""
         self.company = ""
+        self.currentPrice = ""
+        self.previousClosePrice = ""
+        self.openPrice = ""
 
         self.textFileDir = "text_files"
 
@@ -115,6 +118,18 @@ class YahooStocksSpider(scrapy.Spider):
                 self.currentPrice = currentPrice
             else:
                 self.currentPrice = "None"
+
+            previousClosePrice = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'PREV_CLOSE-value')]/text()").get())
+            if (previousClosePrice != "None"):
+                self.previousClosePrice = previousClosePrice
+            else:
+                self.previousClosePrice = "None"
+
+
+            # open = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'PREV_CLOSE-value')]/text()").get())
+
+
+
 
             print("")
 
