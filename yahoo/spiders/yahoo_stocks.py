@@ -39,6 +39,11 @@ class YahooStocksSpider(scrapy.Spider):
         self.currentPrice = ""
         self.previousClosePrice = ""
         self.openPrice = ""
+        self.bid = ""
+        self.ask = ""
+        self.dayRange = ""
+        self._52WeekRange = ""
+        self.volume = ""
 
         self.textFileDir = "text_files"
 
@@ -97,13 +102,11 @@ class YahooStocksSpider(scrapy.Spider):
                 self.symbol = checkEmpty(splitStr[0].strip())
                 self.company = splitStr[1].strip()
 
-
                 if (self.symbol != "None"):
                     self.url = "https://finance.yahoo.com/quote/" + self.symbol
                     yield SplashRequest(url=self.url, callback=self.parseYahoo, \
                         endpoint="execute", args={"lua_source": self.script2}, \
                         headers={"User-Agent": random.choice(USER_AGENT_LIST)})
-
 
         except Exception as ex:
             print("exception => error opening text file for reading --- {0}".format(ex))
@@ -125,13 +128,44 @@ class YahooStocksSpider(scrapy.Spider):
             else:
                 self.previousClosePrice = "None"
 
+            openPrice = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'OPEN-value')]/text()").get())
+            if (openPrice != "None"):
+                self.openPrice = openPrice
+            else:
+                self.openPrice = "None"
 
-            # open = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'PREV_CLOSE-value')]/text()").get())
+            bid = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'BID-value')]/text()").get())
+            if (bid != "None"):
+                self.bid = bid
+            else:
+                self.bid = "None"
+
+            ask = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'ASK-value')]/text()").get())
+            if (ask != "None"):
+                self.ask = ask
+            else:
+                self.ask = "None"
+
+            dayRange = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'DAYS_RANGE-value')]/text()").get())
+            if (dayRange != "None"):
+                self.dayRange = dayRange
+            else:
+                self.dayRange = "None"
+
+            _52WeekRange = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'FIFTY_TWO_WK_RANGE-value')]/text()").get())
+            if (_52WeekRange != "None"):
+                self._52WeekRange = _52WeekRange
+            else:
+                self._52WeekRange = "None"
 
 
 
 
             print("")
+
+            print("")
+
+
 
 
             # loader = loadEventItem(self,response)
