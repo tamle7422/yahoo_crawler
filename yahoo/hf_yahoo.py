@@ -24,18 +24,24 @@ def setLocation(self,location):
     subComma = re.sub(r"[\,]",";",location)
     self.location = '"' + subComma + '"'
 
-def setLocality(self,locality):
-    if (re.search(r"N/A",locality) != None):
-        self.locality = "None"
-    else:
-        subComma = re.sub(r"[\,]",";",locality)
-        self.locality = '"' + subComma + '"'
 
-def setCountry(self,country):
-    if (re.search(r"N/A",country) != None):
-        self.country = "None"
-    else:
-        self.country = country
+def setVolume(self,volume):
+
+
+    try:
+        print("")
+
+    except Exception as ex:
+        print("exception => error setting volume --- {0}".format(ex))
+
+
+def setAverageVolume(self, volume):
+    try:
+        print("")
+
+    except Exception as ex:
+        print("exception => error setting average volume --- {0}".format(ex))
+
 
 def setHeight(self,height):
     if (re.search(r"N/A",height) == None and re.search(r"0'0",height) == None):

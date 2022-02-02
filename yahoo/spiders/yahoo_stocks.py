@@ -8,7 +8,7 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.utils.log import configure_logging
 from ..hf_yahoo import checkEmpty,resetFightCard,loadEventItem,checkHeight,setBirthDate,setDate, \
     setEventNameTitleUrl,createUrl,checkFightResult,loadFightCardItem,setFirstRowFightCard,setAge,setHeight, \
-    setWeight,setCountry,setLocality,resetFinance,loadFighterItem,setLocation,setAssociation
+    setWeight,setVolume,setAverageVolume,resetFinance,loadFighterItem,setLocation,setAssociation
 from ..settings import USER_AGENT_LIST
 from scrapy_splash import SplashRequest,SplashFormRequest
 
@@ -44,6 +44,7 @@ class YahooStocksSpider(scrapy.Spider):
         self.dayRange = ""
         self._52WeekRange = ""
         self.volume = ""
+        self.averageVolume = ""
 
         self.textFileDir = "text_files"
 
@@ -157,6 +158,18 @@ class YahooStocksSpider(scrapy.Spider):
                 self._52WeekRange = _52WeekRange
             else:
                 self._52WeekRange = "None"
+
+            volume = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'TD_VOLUME-value')]/fin-streamer/text()").get())
+            if (volume != "None"):
+                setVolume(self,volume)
+            else:
+                self.volume = "None"
+
+            averageVolume = checkEmpty(response.xpath("//tr[contains(@class,'Bxz(bb)')]/td[contains(@data-test,'AVERAGE_VOLUME_3MONTH-value')]/text()").get())
+            if (averageVolume != "None"):
+                setAverageVolume(self,averageVolume)
+            else:
+                self.averageVolume = "None"
 
 
 
