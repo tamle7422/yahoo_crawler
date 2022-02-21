@@ -4,15 +4,21 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 import scrapy
 
-class FinanceItem(scrapy.Item):
-    fighterName = scrapy.Field()
-    birthDate = scrapy.Field()
-    age = scrapy.Field()
-    height = scrapy.Field()
-    weight = scrapy.Field()
-    association = scrapy.Field()
-    fighterClass = scrapy.Field()
-    win = scrapy.Field()
-    loss = scrapy.Field()
-    locality = scrapy.Field()
-    country = scrapy.Field()
+class StockItem(scrapy.Item):
+    company = scrapy.Field()
+    symbol = scrapy.Field()
+    currentPrice = scrapy.Field()
+    previousClosePrice = scrapy.Field()
+    openPrice = scrapy.Field()
+    bid = scrapy.Field()
+    ask = scrapy.Field()
+    dayRange = scrapy.Field()
+    _52WeekRange = scrapy.Field()
+    volume = scrapy.Field()
+    averageVolume = scrapy.Field()
+    marketCap = scrapy.Field()
+    beta = scrapy.Field()
+    priceEarningsRatio = scrapy.Field()
+    earningsPerShare = scrapy.Field()
+    forwardDividend = scrapy.Field()
+    yieldPercent = scrapy.Field()

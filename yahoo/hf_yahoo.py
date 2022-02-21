@@ -2,15 +2,15 @@ import re
 import logging
 from datetime import datetime
 from scrapy.loader import ItemLoader
-from .items import FinanceItem
+from .items import StockItem
 from .switch_month import switchMonthThreeLetters
 
-def printTime():
+def getTime():
     now = datetime.now()
     currentDate = now.strftime("%m_%d_%y")
     return currentDate
 
-def resetFinance(self):
+def resetStock(self):
     self.birthDate = ""
     self.age = ""
     self.height = ""
@@ -24,23 +24,72 @@ def setLocation(self,location):
     subComma = re.sub(r"[\,]",";",location)
     self.location = '"' + subComma + '"'
 
-
 def setVolume(self,volume):
-
-
     try:
-        print("")
+        if (volume != "None"):
+            self.volume = re.sub(r",","",volume)
+        else:
+            self.volume = "None"
 
     except Exception as ex:
         print("exception => error setting volume --- {0}".format(ex))
+        self.volume = "None"
 
-
-def setAverageVolume(self, volume):
+def setCompany(self,company):
     try:
-        print("")
+        if (company != "None"):
+            self.company = company.lower()
+        else:
+            self.company = "None"
+
+    except Exception as ex:
+        print("exception => error setting company --- {0}".format(ex))
+        self.company = "None"
+
+def setSymbol(self,symbol):
+    try:
+        if (symbol != "None"):
+            self.symbol = symbol
+        else:
+            self.symbol = "None"
+
+    except Exception as ex:
+        print("exception => error setting symbol --- {0}".format(ex))
+        self.symbol = "None"
+
+def setAverageVolume(self,averageVolume):
+    try:
+        if (averageVolume != "None"):
+            self.averageVolume = re.sub(r",","",averageVolume)
+        else:
+            self.averageVolume = "None"
 
     except Exception as ex:
         print("exception => error setting average volume --- {0}".format(ex))
+        self.averageVolume = "None"
+
+def setMarketCap(self,marketCap):
+    try:
+        self.marketCap = re.sub(r"B","",marketCap)
+
+    except Exception as ex:
+        print("exception => error setting market capitalization --- {0}".format(ex))
+        self.marketCap = "None"
+
+def setForwardDividendYield(self,forwardDividendYield):
+    try:
+        if (forwardDividendYield != "None"):
+            splitOpenParen = forwardDividendYield.split("(")
+            self.forwardDividend = splitOpenParen[0]
+            self.yieldPercent = re.sub(r"[^0-9\.]","",splitOpenParen[1])
+        else:
+            self.forwardDividend = "None"
+            self.yieldPercent = "None"
+
+    except Exception as ex:
+        print("exception => error setting forward dividend and yield --- {0}".format(ex))
+        self.forwardDividend = "None"
+        self.yieldPercent = "None"
 
 
 def setHeight(self,height):
@@ -130,27 +179,6 @@ def createUrl(self):
         url = "https://www.sherdog.com/events/recent/{0}-page".format(x)
         self.eventUrlList.append(url)
 
-def setEventNameTitleUrl(self,selPath,response):
-    eventName = checkEmpty(selPath.xpath(".//td[2]/a/text()").get())
-    if (eventName != "None"):
-        self.eventName = eventName
-    else:
-        self.eventName = "None"
-
-    eventTitle = checkEmpty(selPath.xpath(".//td[3]/a/text()").get())
-    if (eventTitle != "None"):
-        self.eventTitle = eventTitle
-    else:
-        self.eventTitle = "None"
-
-    eventUrl = checkEmpty(selPath.xpath(".//td[2]/a/@href").get())
-    if (eventUrl != "None"):
-        urlJoin = checkEmpty(response.urljoin(eventUrl))
-        if (urlJoin != "None"):
-            self.eventUrl = urlJoin
-        elif (urlJoin == "None"):
-            self.eventUrl = "None"
-
 def setDate(self,selPath):
     month = checkEmpty(selPath.xpath(".//td/span/span[@class='month']/text()").get())
     day = checkEmpty(selPath.xpath(".//td/span/span[@class='day']/text()").get())
@@ -164,32 +192,45 @@ def setDate(self,selPath):
     else:
         self.date = "None"
 
-def loadEventItem(self,response):
-    self.date = self.date if (self.date != "") else "None"
-    self.eventName = self.eventName if (self.eventName != "") else "None"
-    self.eventTitle = self.eventTitle if (self.eventTitle != "") else "None"
-    self.location = self.location if (self.location != "") else "None"
+def loadStockItem(self,response):
+    self.company = self.company if (len(self.company) != 0) else "None"
+    self.symbol = self.symbol if (len(self.symbol) != 0) else "None"
+    self.currentPrice = self.currentPrice if (len(self.currentPrice) != 0) else "None"
+    self.previousClosePrice = self.previousClosePrice if (len(self.previousClosePrice) != 0) else "None"
+    self.openPrice = self.openPrice if (len(self.openPrice) != 0) else "None"
+    self.bid = self.bid if (len(self.bid) != 0) else "None"
+    self.ask = self.ask if (len(self.ask) != 0) else "None"
+    self.dayRange = self.dayRange if (len(self.dayRange) != 0) else "None"
+    self._52WeekRange = self._52WeekRange if (len(self._52WeekRange) != 0) else "None"
+    self.volume = self.volume if (len(self.volume) != 0) else "None"
+    self.averageVolume = self.averageVolume if (len(self.averageVolume) != 0) else "None"
+    self.marketCap = self.marketCap if (len(self.marketCap) != 0) else "None"
+    self.beta = self.beta if (len(self.beta) != 0) else "None"
+    self.priceEarningsRatio = self.priceEarningsRatio if (len(self.priceEarningsRatio) != 0) else "None"
+    self.earningsPerShare = self.earningsPerShare if (len(self.earningsPerShare) != 0) else "None"
+    self.forwardDividend = self.forwardDividend if (len(self.forwardDividend) != 0) else "None"
+    self.yieldPercent = self.yieldPercent if (len(self.yieldPercent) != 0) else "None"
 
-    loader = ItemLoader(item=EventItem(),response=response)
-    loader.add_value("date",self.date)
-    loader.add_value("eventName",self.eventName)
-    loader.add_value("eventTitle",self.eventTitle)
-    loader.add_value("location",self.location)
-    return loader
-
-def loadFightCardItem(self,response):
-    self.fighter1Name = self.fighter1Name if (self.fighter1Name != "") else "None"
-    self.fighter2Name = self.fighter2Name if (self.fighter2Name != "") else "None"
-    self.fighter1Result = self.fighter1Result if (self.fighter1Result != "") else "None"
-    self.fighter2Result = self.fighter2Result if (self.fighter2Result != "") else "None"
-    self.fighterMethodResult = self.fighterMethodResult if (self.fighterMethodResult != "") else "None"
-
-    loader = ItemLoader(item=FightCardItem(),response=response)
-    loader.add_value("fighter1Name",self.fighter1Name)
-    loader.add_value("fighter2Name",self.fighter2Name)
-    loader.add_value("fighter1Result",self.fighter1Result)
-    loader.add_value("fighter2Result",self.fighter2Result)
-    loader.add_value("fighterMethodResult",self.fighterMethodResult)
+    loader = ItemLoader(item=StockItem(),response=response)
+    loader.add_value("company", self.company)
+    loader.add_value("symbol", self.symbol)
+    loader.add_value("currentPrice",self.currentPrice)
+    loader.add_value("previousClosePrice",self.previousClosePrice)
+    loader.add_value("currentPrice",self.currentPrice)
+    loader.add_value("previousClosePrice",self.previousClosePrice)
+    loader.add_value("openPrice",self.openPrice)
+    loader.add_value("bid",self.bid)
+    loader.add_value("ask",self.ask)
+    loader.add_value("dayRange",self.dayRange)
+    loader.add_value("_52WeekRange",self._52WeekRange)
+    loader.add_value("volume",self.volume)
+    loader.add_value("averageVolume",self.averageVolume)
+    loader.add_value("marketCap",self.marketCap)
+    loader.add_value("beta",self.beta)
+    loader.add_value("priceEarningsRatio",self.priceEarningsRatio)
+    loader.add_value("earningsPerShare",self.earningsPerShare)
+    loader.add_value("forwardDividend",self.forwardDividend)
+    loader.add_value("yieldPercent",self.yieldPercent)
     return loader
 
 def loadFighterItem(self,response):

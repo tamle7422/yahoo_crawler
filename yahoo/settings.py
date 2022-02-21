@@ -6,7 +6,7 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-from .hf_yahoo import printTime
+from .hf_yahoo import getTime
 import pathlib
 
 BOT_NAME = 'yahoo'
@@ -63,10 +63,10 @@ DOWNLOADER_MIDDLEWARES = {
 #}
 
 # configure item pipelines
-# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    "yahoo.pipelines.YahooStocksPipeline": 300,
-}
+# see https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+# ITEM_PIPELINES = {
+#     "yahoo.pipelines.YahooStocksPipeline": 300,
+# }
 # enable and configure the AutoThrottle extension (disabled by default)
 # see https://docs.scrapy.org/en/latest/topics/autothrottle.html
 AUTOTHROTTLE_ENABLED = True
@@ -80,7 +80,7 @@ AUTOTHROTTLE_START_DELAY = 5.25
 #AUTOTHROTTLE_DEBUG = False
 
 # logging
-logTime = printTime()
+logTime = getTime()
 pathLog = "log"
 pathlib.Path(pathLog).mkdir(parents=True,exist_ok=True)
 
@@ -89,7 +89,7 @@ LOG_LEVEL = "INFO"
 
 # enable and configure HTTP caching (disabled by default)
 # see https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-HTTPCACHE_ENABLED = False
+HTTPCACHE_ENABLED = True
 # HTTPCACHE_EXPIRATION_SECS = 10
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = [403]
