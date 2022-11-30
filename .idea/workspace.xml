@@ -2,118 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766d7bf9-350c-477b-b104-2d449eaf33ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yahoo/csv_files/nasdaq/nasdaq_screener.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/Scrapy-2.5.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/cmdline.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/cmdline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/fetch.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/fetch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/genspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/genspider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/shell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/startproject.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/startproject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/commands/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/contextfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/contextfactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/ftp.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/ftp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/http11.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/http11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/http2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/http2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/handlers/s3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/tls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/tls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/webclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/downloader/webclient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/http2/stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/http2/stream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/spidermw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/core/spidermw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/decompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/decompression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/httpcache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/httpcache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/httpproxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/httpproxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/redirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/redirect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/retry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/robotstxt.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/robotstxt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/downloadermiddlewares/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/dupefilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/dupefilters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/exporters.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/exporters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/feedexport.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/feedexport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/httpcache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/httpcache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/memusage.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/memusage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/statsmailer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/extensions/statsmailer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/headers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/json_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/json_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/rpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/request/rpc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/response/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/response/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/response/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/http/response/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/linkextractors/lxmlhtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/linkextractors/lxmlhtml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/loader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/loader/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/middleware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/media.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pipelines/media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pqueues.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/pqueues.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/responsetypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/responsetypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/settings/default_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/settings/default_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/shell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/depth.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/depth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/offsite.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/offsite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/referer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/referer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/urllength.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spidermiddlewares/urllength.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/spiders/feed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/squeues.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/squeues.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/templates/project/module/settings.py.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/templates/project/module/settings.py.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/asyncgen.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/asyncgen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/console.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/curl.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/curl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/datatypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/datatypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/defer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/defer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/deprecate.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/deprecate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/py36.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/python.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/reactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/reactor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/reqser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/reqser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/signal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/testsite.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/testsite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.8/site-packages/scrapy/utils/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/csv_files/stock/stock_02_20_2022.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/hf_yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/hf_yahoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/spiders/yahoo_stocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/spiders/yahoo_stocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo/text_files/NYSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo/text_files/nyse.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,22 +109,22 @@
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>
     <state x="2013" y="188" key="FileChooserDialogImpl/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669754510013" />
-    <state width="1888" height="327" key="GridCell.Tab.0.bottom" timestamp="1669830247651">
+    <state width="1888" height="262" key="GridCell.Tab.0.bottom" timestamp="1669830941662">
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>
-    <state width="1888" height="327" key="GridCell.Tab.0.bottom/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830247651" />
-    <state width="1888" height="327" key="GridCell.Tab.0.center" timestamp="1669830247651">
+    <state width="1888" height="262" key="GridCell.Tab.0.bottom/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830941662" />
+    <state width="1888" height="262" key="GridCell.Tab.0.center" timestamp="1669830941662">
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>
-    <state width="1888" height="327" key="GridCell.Tab.0.center/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830247651" />
-    <state width="1888" height="327" key="GridCell.Tab.0.left" timestamp="1669830247651">
+    <state width="1888" height="262" key="GridCell.Tab.0.center/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830941662" />
+    <state width="1888" height="262" key="GridCell.Tab.0.left" timestamp="1669830941662">
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>
-    <state width="1888" height="327" key="GridCell.Tab.0.left/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830247651" />
-    <state width="1888" height="327" key="GridCell.Tab.0.right" timestamp="1669830247651">
+    <state width="1888" height="262" key="GridCell.Tab.0.left/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830941662" />
+    <state width="1888" height="262" key="GridCell.Tab.0.right" timestamp="1669830941662">
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>
-    <state width="1888" height="327" key="GridCell.Tab.0.right/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830247651" />
+    <state width="1888" height="262" key="GridCell.Tab.0.right/0.0.1366.768/1365.0.1920.1080@1365.0.1920.1080" timestamp="1669830941662" />
     <state width="1888" height="327" key="GridCell.Tab.1.bottom" timestamp="1669830247651">
       <screen x="1365" y="0" width="1920" height="1080" />
     </state>

@@ -10,6 +10,9 @@ Scripts/*
 .idea
 .idea/
 
+bin
+lib
+
 # configuration file
 # *.cfg
 pyvenv.cfg
