@@ -1,8 +1,11 @@
+# gitignore settings for yahoo crawler
 Scripts
 Scripts/
 Scripts/*
 /Scripts
 ~Scripts
+
+.scrapy
 
 .idea
 .idea/
@@ -11,8 +14,8 @@ Scripts/*
 # *.cfg
 pyvenv.cfg
 
-.scrapy
-sherdog/__pycache__
+yahoo/log
+yahoo/__pycache__
 __pycache__
 __pycache__/
 
@@ -29,7 +32,6 @@ bin/
 log
 log/
 /log
-yahoo/log
 *.log
 
 # compiled class file

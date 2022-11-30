@@ -1,0 +1,45 @@
+name,symbol,price,pointChange,percentChange,previousClosePrice,openPrice,bid,ask,lowDayRange,highDayRange,low52WeekRange,high52WeekRange,volume,averageVolume,marketCap,beta,priceEarningsRatio,earningsPerShare,"earningsDate,",forwardDividend,exDividendDate,yieldPercent
+Almaden Minerals,AAU,0.2385,+0.0039,+1.66%,0.2346,0.2400,0.2360 x 34100,None,0.2346 , 0.2399,0.2000,0.4900,69011,340823,33.604,1.18,N/A,-0.0150,,N/A,None,N/A
+Aptus Collared Income Opportunity ETF,ACIO,None,-0.14%,None,29.71,29.69,29.68 x 3200,None,29.67 , 29.71,27.91,33.93,7061,73298,524.69,29.79,N/A,0.74%,,None,None,None
+First Priority Clo Bond ETF,AAA,24.37,0.00,0.00%,24.37,24.29,24.35 x 900,None,24.37 , 24.37,24.03,25.06,1,784,7.27,24.40,N/A,1.80%,,None,None,None
+Altisource Asset Management Corp Com,AAMC,18.95,-1.22,-6.06%,20.17,18.16,19.10 x 900,None,18.95 , 19.87,8.65,27.44,4258,4042,33.678,1.38,7.33,2.59,,N/A,None,N/A
+Absolute Core Strategy ETF,ABEQ,28.08,-0.08,-0.28%,28.15,28.30,28.05 x 1800,None,28.05 , 28.23,24.86,31.00,30304,15377,80.92,27.97,N/A,0.89%,,None,None,None
+American Customer Satisfaction Core Alpha ETF,ACSI,44.37,-0.01,-0.03%,42.63,42.68,44.26 x 1000,None,44.37 , 44.37,40.34,53.69,4,271,68.04,44.38,N/A,0.38%,,None,None,None
+GS Physical Gold ETF,AAAU,17.40,+0.05,+0.26%,17.35,17.44,17.38 x 45900,None,17.35 , 17.49,16.06,20.57,2226975,1320393,383.06,17.33,N/A,0.00%,,None,None,None
+Leadershares Activist Leaders ETF,ACTV,29.77,-0.17,-0.55%,29.94,30.07,29.72 x 1300,None,29.77 , 29.86,26.46,38.74,4602,11404,82.25,29.85,N/A,0.14%,,None,None,None
+Acme United Corp,ACU,23.55,-0.19,-0.80%,23.74,23.76,23.26 x 800,None,23.55 , 24.00,21.11,35.76,4287,7682,83.243,0.92,15.10,1.56,,0.56,"Sep 30, 2022",2.36
+Alps Clean Energy ETF,ACES,53.25,-0.03,-0.07%,53.28,53.48,53.24 x 900,None,53.23 , 54.15,42.66,75.58,19022,81260,691.65,53.70,N/A,0.83%,,None,None,None
+American Conservative Values ETF,ACVF,30.49,-0.10,-0.34%,30.60,30.72,30.45 x 2200,None,30.49 , 30.55,26.50,35.89,3424,3961,32.4,30.56,N/A,0.87%,,None,None,None
+Global Multifactor Ishares Edge MSCI ETF,ACWF,33.22,+0.05,+0.15%,33.17,33.28,33.09 x 1400,None,33.15 , 33.30,29.06,39.58,3934,11096,113.08,32.94,N/A,2.33%,,None,None,None
+Global Min Vol Ishares Edge MSCI ETF,ACWV,97.00,+0.09,+0.09%,96.91,96.98,97.11 x 1200,None,96.89 , 97.32,86.42,108.60,32966,190082,4.38,96.83,N/A,2.16%,,None,None,None
+Anfield Dynamic Fixed Income ETF,ADFI,None,-0.24%,None,8.40,8.38,8.36 x 1000,None,8.38 , 8.38,7.85,9.70,305,11115,15.57,8.40,N/A,1.34%,,None,None,None
+Aptus Drawdown Managed Equity ETF,ADME,None,-0.09%,None,34.83,34.80,34.74 x 3000,None,34.75 , 34.80,32.56,43.67,7614,39922,340.65,34.87,N/A,0.52%,,None,None,None
+Ault Disruptive Technologies Corp [Adrt.U],ADR.S,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Smartetfs Asia Pacific Dividend Builder ETF,ADIV,12.95,0.00,0.00%,12.95,12.61,13.05 x 900,None,12.95 , 12.95,11.22,17.55,6,1036,2.91,12.72,N/A,4.79%,,None,None,None
+Ault Disruptive Technologies Corp WT [Adrt/W],ADR.T,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Adara Acquisition Corp [Adra.U],ADR.U,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Adara Acquisition Corp WT [Adra/W],ADR.W,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Adara Acquisition Corp Cl A,ADRA,10.05,0.00,0.00%,10.05,10.05,0.00 x 3200,None,10.05 , 10.06,9.71,10.06,2,24814,144.469,N/A,83.75,0.12,,N/A,None,N/A
+Ault Disruptive Technologies Corp,ADRT,10.17,0.00,0.00%,10.17,10.17,10.12 x 1000,None,10.17 , 10.17,9.80,10.17,20,15492,146.194,N/A,N/A,-0.05,,N/A,None,N/A
+Adams Resources & Energy,AE,38.03,-0.90,-2.31%,38.93,38.55,38.01 x 900,None,38.00 , 38.88,26.26,41.82,1993,14074,93.268,0.89,12.39,3.07,,0.96,"Dec 01, 2022",2.47
+Abrdn EM Equity Income Fund Inc,AEF,5.14,+0.15,+3.01%,4.99,5.05,5.13 x 1200,None,5.12 , 5.18,4.26,8.25,38929,72182,260.864,0.88,N/A,-0.17,,0.50,"Sep 22, 2022",10.02
+American Century Emerging Markets Bond ETF,AEMB,37.81,0.00,0.00%,37.81,37.16,37.67 x N/A,None,37.81 , 37.81,34.37,48.71,1,1250,24.73,37.65,N/A,5.71%,,None,None,None
+Anfield U.S. Equity Sector Rotation ETF,AESR,11.81,+0.01,+0.08%,11.80,11.76,11.77 x 1200,None,11.76 , 11.81,10.54,14.79,4610,39585,125.64,11.81,N/A,0.27%,,None,None,None
+Anfield Universal Fixed Income ETF,AFIF,8.74,-0.01,-0.06%,8.74,8.77,8.74 x 900,None,8.74 , 8.77,8.57,9.63,2558,56606,119.85,8.76,N/A,3.00%,,None,None,None
+Vaneck Africa Index ETF,AFK,17.35,+0.16,+0.93%,17.19,17.60,17.33 x 800,None,17.35 , 17.51,14.76,21.89,3965,8044,43.99,16.79,N/A,5.53%,,None,None,None
+FT Active Factor Mid Cap ETF,AFMC,23.17,+0.09,+0.41%,20.62,23.17,22.91 x 900,None,23.18 , 23.18,20.00,26.93,101,73,1.11,23.07,N/A,1.56%,,None,None,None
+FT Active Factor Small Cap ETF,AFSM,23.77,0.00,0.00%,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+FT Active Factor Large Cap ETF,AFLG,24.06,-0.07,-0.29%,24.13,24.06,23.96 x 900,None,24.06 , 24.06,21.42,28.22,385,477,4.71,24.10,N/A,1.42%,,None,None,None
+CSOP FTSE China A50 ETF,AFTY,15.51,+0.34,+2.21%,15.17,15.51,15.43 x 1100,None,15.51 , 15.51,13.16,22.06,100,911,4.73,14.49,N/A,2.89%,,None,None,None
+Agex Therapeutics Inc,AGE,0.5807,+0.0205,+3.67%,0.5602,0.5800,0.5800 x 4000,None,0.5800 , 0.5807,0.5160,1.3900,2323,22904,22.036,1.43,N/A,-0.2450,,N/A,None,N/A
+US Aggregate Bond Ishares Core ETF,AGG,97.40,-0.13,-0.13%,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Simplify Aggregate Bond Plus Credit ETF,AGGH,22.37,0.00,0.00%,22.37,22.46,22.38 x 3000,None,22.37 , 22.48,21.75,26.35,6,1738,2.75,22.52,N/A,N/A,,None,None,None
+Wisdomtree Yield Ehd U.S. Agg Bond Fund,AGGY,42.74,-0.07,-0.16%,42.81,42.75,42.73 x 900,None,42.69 , 42.79,40.84,52.20,54896,231192,801.18,42.99,N/A,2.64%,,None,None,None
+Ishares Inflation Hedged U.S. Aggregate Bond ETF,AGIH,24.21,-0.10,-0.41%,25.12,24.19,24.18 x 900,None,24.39 , 24.39,23.59,26.21,0,49,2.4,24.30,N/A,N/A,,None,None,None
+Exchange Listed Funds Trust Gavekal Asia Pacific,AGOV,79.96,+0.01,+0.02%,79.94,81.14,79.05 x 1000,None,79.96 , 81.00,75.41,98.96,80,2417,47.69,81.30,N/A,0.93%,,None,None,None
+Adaptive Growth Opportunities ETF,AGOX,21.15,+0.05,+0.22%,21.10,21.21,21.07 x 1800,None,21.07 , 21.21,18.68,29.32,2895,51057,158.53,21.04,N/A,0.23%,,None,None,None
+Ultra Silver ETF,AGQ,26.40,+0.98,+3.85%,25.42,26.97,26.33 x 1100,None,26.10 , 27.14,17.56,47.05,925177,1289233,324.37,24.75,N/A,0.00%,,None,None,None
+Interest Rate Hedged U.S. Agg Bond ETF,AGRH,None,-0.16%,None,25.34,25.37,25.20 x N/A,None,25.31 , 25.31,24.95,25.40,99,107,2.52,25.32,N/A,N/A,,None,None,None
+Agency Bond Ishares ETF,AGZ,106.55,-0.16,-0.15%,106.71,106.55,106.51 x 900,None,106.45 , 106.59,105.00,118.00,7584,32020,575.73,106.67,N/A,1.18%,,None,None,None
+Tidal Newday Ocean Health ETF,AHOY,19.28,-0.05,-0.28%,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None
+Adaptive High Income ETF,AHHX,8.47,-0.01,-0.12%,None,None,None,None,None,None,None,None,None,None,None,None,None,None,,None,None,None

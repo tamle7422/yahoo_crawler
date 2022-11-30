@@ -33,13 +33,11 @@ ACA	Arcosa Inc
 ACA.U	Athena Consumer Acquisition Corp [Acaq.U]
 ACA.W	Athena Consumer Acquisition Corp [Acaq/W]
 ACAQ	Athena Consumer Acquisition Corp Cl A
-ACC	American Campus Communities Inc
 ACCO	Acco Brands Corp
-ACD.U	Ascendant Digital Acquisition Corp III [Acdi.U]
-ACD.W	Ascendant Digital Acquisition Corp III WT [Acdi/
-ACDI	Ascendant Digital Acquisition Corp III Cl A
+ACD.U	Ascendant Digital Acquisition III [Acdi.U]
+ACD.W	Ascendant Digital Acquisition III WT [Acdi/W]
+ACDI	Ascendant Digital Acquisition III Cl A
 ACEL	Accel Entertainment Inc
-ACH	Aluminum Corp of China Ltd ADR
 ACH.W	Archer Aviation Inc WT [Achr.W]
 ACHR	Archer Aviation Inc
 ACI	Albertsons Companies Inc Cl A
@@ -48,7 +46,7 @@ ACI.T	Atlas Crest Investment Corp II WT [Acii/W]
 ACII	Atlas Crest Investment Corp II Cl A
 ACM	Aecom Technology Corp
 ACN	Accenture Plc
-ACP	Aberdeen Income Credit Strategies
+ACP	Abrnd Income Credit Strategies Fund
 ACP-A	Aberdeen Income Credit Strategies Fund
 ACR	Acres Commercial Realty Corp
 ACR-C	Acres Commercial Realty Corp Pfd
@@ -66,7 +64,6 @@ ADE.W	Adit Edtech Acquisition Corp WT [Adex/W]
 ADEX	Adit Edtech Acquisition Corp
 ADM	Archer Daniels Midland
 ADNT	Adient Plc
-ADS	Alliance Data Systems Corp
 ADT	ADT Inc
 ADX	Adams Diversified Equity Fund
 AEE	Ameren Corp
@@ -89,7 +86,6 @@ AFGB	American Financial Group Inc 5.875%
 AFGC	American Financial Group Inc 5.125%
 AFGD	American Financial Group Inc 5.625%
 AFGE	American Financial Group Inc 4.500%
-AFI	Armstrong Flooring Inc
 AFL	Aflac Inc
 AFT	Apollo Senior Floating Rate Fund Inc
 AFT.U	Afternext Healthtech Acquisition [Aftr.U]
@@ -101,7 +97,7 @@ AGA.W	African Gold Acquisition Corp WT [Agac/W]
 AGAC	African Gold Acquisition Corp Cl A
 AGCB	Altimeter Growth Corp 2 Cl A
 AGCO	Agco Corp
-AGD	Aberdeen Global Dynamic Dividend Fund
+AGD	Abrdn Global Dynamic Dividend Fund
 AGI	Alamos Gold Inc
 AGL	Agilon Health Inc
 AGM	Federal Agricultural Mortgage Corp
@@ -134,10 +130,11 @@ AIF	Apollo Tactical Income Fund Inc
 AIG	American International Group
 AIG-A	American International Group Inc [Aig/Pa]
 AIN	Albany International Corp
-AIO	Virtus Allianzgi Artificial Intel & Tech Opp
+AIO	Virtus Artificial Intel & Tech Opp
 AIR	AAR Corp
 AIRC	Apartment Income REIT Corp
 AIT	Applied Industrial Technologies
+AIU	Meta Data Ltd ADR
 AIV	Apartment Investment and Management
 AIZ	Assurant Inc
 AIZN	Assurant Inc 5.25% Subordinated Notes Due 2061
@@ -157,10 +154,6 @@ ALCC	Altc Acquisition Corp Cl A
 ALE	Allete Inc
 ALEX	Alexander and Baldwin Inc
 ALG	Alamo Group
-ALI-A	Altera Infrastructure LP 7.25% Ser A [Alin/Pa]
-ALI-B	Altera Infrastructure LP 8.50% Ser B [Alin/Pb]
-ALI-E	Altera Infrastructure LP 8.875% Ser E [Alin/Pe]
-ALI.W	Alight Inc WT [Alit/W]
 ALIT	Alight Inc Cl A
 ALK	Alaska Air Group
 ALL	Allstate Corp
@@ -168,7 +161,9 @@ ALL-B	Allstate Corp [All/Pb]
 ALL-G	Allstate Corp [All/Pg]
 ALL-H	Allstate Corp [All/Ph]
 ALL-I	Allstate Corp [All/Pi]
+ALL.W	Allego N V WT [Allg/W]
 ALLE	Allegion Plc
+ALLG	Allego N.V.
 ALLY	Ally Financial
 ALP-Q	Alabama Power Co. [Alp/Pq]
 ALSN	Allison Transmission Holdings
@@ -178,15 +173,15 @@ ALV	Autoliv Inc
 ALX	Alexander's Inc
 AM	Antero Midstream Corp
 AMAM	Ambrx Biopharma Inc ADR
+AMB.T	Ardagh Metal Packaging Sa WT [Ambp/W]
 AMB.W	Ambac Financial Group Inc WT [Ambc/W]
 AMBC	Ambac Financial Group
 AMBP	Ardagh Metal Packaging S.A.
-AMC	AMC Entertainment Holdings Inc
+AMC	Amc Entertainment Holdings Inc
 AMCR	Amcor Plc
 AME	Ametek Inc
 AMG	Affiliated Managers Group
 AMH	American Homes 4 Rent
-AMH-F	American Homes 4 Rent [Amh/Pf]
 AMH-G	American Homes 4 Rent [Amh/Pg]
 AMH-H	American Homes 4 Rent [Amh/Ph]
 AMK	Assetmark Financial Holdings Inc
@@ -195,14 +190,17 @@ AMOV	America Movil A ADR
 AMP	Ameriprise Financial Services
 AMP.T	Altus Power Inc WT [Amps/W]
 AMP.U	Advanced Merger Partners Inc [Ampi.U]
+AMP.V	Amprius Technologies Inc [Ampx.W]
 AMP.W	Advanced Merger Partners Inc [Ampi/W]
 AMPI	Advanced Merger Partners Inc Cl A
 AMPS	Altus Power Inc
+AMPX	Amprius Technologies Inc
 AMPY	Amplify Energy Corp
 AMR	Alpha Metallurgical Resources Inc
 AMRC	Ameresco Inc
 AMRX	Amneal Pharmaceuticals Inc
 AMT	American Tower Corp
+AMTD	Amtd Idea Group
 AMWL	American Well Corp Cl A
 AMX	America Movil S.A.B. DE C.V. ADR
 AN	Autonation Inc
@@ -211,16 +209,18 @@ ANA.W	Arctos Northstar Acquisition Corp WT [Anac/W]
 ANAC	Arctos Northstar Acquisition Corp Cl A
 ANET	Arista Networks Inc
 ANF	Abercrombie & Fitch Company
-ANTM	Anthem Inc
 ANVS	Annovis Bio Inc
 AOD	Aberdeen Total Dynamic Dividend Fund
 AOMR	Angel Oak Mortgage Inc
 AON	AON Plc
+AORT	Artivion Inc
 AOS	Smith A.O. Corp
 AP	Ampco-Pittsburgh Corp
 APAM	Artisan Partners Asset Mgmt
-APC.U	Ap Acquisition Corp [Apca.U]
+APC.W	Ap Acquisition Corp WT [Apca/W]
+APCA	Ap Acquisition Corp Cl A
 APD	Air Products and Chemicals
+APE	Amc Entertainment Holdings Prfd
 APG	Api Group Corp
 APG.U	Apollo Strategic Growth Capital II [Apgb.U]
 APG.W	Apollo Strategic Growth Capital II WT [Apgb/W]
@@ -231,14 +231,8 @@ APN	Apeiron Capital Investment Corp Cl A
 APN.U	Apeiron Capital Investment Corp Units
 APN.W	Apeiron Capital Investment Corp WT
 APO	Apollo Asset Management Inc
-APO-A	Apollo Global Mgmt Inc [Apo/Pa]
-APO-B	Apollo Global Mgmt Inc [Apo/Pb]
 APRN	Blue Apron Holdings Inc
-APS.U	Apollo Strategic Growth Capital Unit [Apsg.U]
-APS.W	Apollo Strategic Growth Capital [Apsg/W]
-APSG	Apollo Strategic Growth Capital Cl A
 APT-A	Aptiv Plc 5.5% Mandatory Cnv Ser A [Aptv/Pa]
-APTS	Preferred Apartment Communities
 APTV	Aptiv Plc
 AQN	Algonquin Pwr & Util
 AQNA	Algonquin Power & Utilities Corp
@@ -278,7 +272,7 @@ ASC	Ardmore Shipping Corp
 ASG	Liberty All-Star Growth Fund
 ASGI	Aberdeen Standard Global Infrastructure
 ASGN	On Assignment
-ASH	Ashland Global Holdings Inc
+ASH	Ashland Inc
 ASIX	Advansix Inc
 ASPN	Aspen Aerogels Inc
 ASR	Grupo Aeroportuario Del Sureste ADR
@@ -287,35 +281,28 @@ ASZ	Austerlitz Acquisition Corp II Cl A
 ASZ.U	Austerlitz Acquisition Corp II Units
 ASZ.W	Austerlitz Acquisition Corp II WT
 ATA	Americas Technology Acquisition Corp
-ATA.D	Altimar Acquisition Corp III [Ataq.U]
 ATA.U	Americas Technology Acquisition Corp
 ATA.V	Altimar Acquisition Corp III WT [Ataq/W]
 ATA.W	Americas Technology Acquisition Corp WT
 ATAQ	Altimar Acquisition Corp III Cl A
-ATC	Atotech Ltd
 ATC-D	Atlas Corp [Atlo/Pd]
 ATC-H	Atlas Corp [Atlo/Ph]
 ATC-I	Atlas Corp [Atlo/Pi]
 ATCO	Atlas Corp
 ATE.U	Athena Technology Acquisition II [Atek.U]
+ATE.W	Athena Technology Acquisition II WT [Atek/W]
+ATEK	Athena Technology Acquisition Corp II Cl A
 ATEN	A10 Networks Inc
 ATGE	Adtalem Global Education Inc
-ATH	Athene Holding Ltd
 ATH-A	Athene Holdings Ltd [Ath/Pa]
 ATH-B	Antah Hlds Ltd
 ATH-C	Athene Hldg Ltd
 ATH-D	Athene Holding Ltd
-ATH.U	Athena Technology Acquisition Corp [Athn.U]
-ATH.W	Athena Technology Acquisition Corp WT [Athn/W]
 ATHM	Autohome Inc ADR
-ATHN	Athena Technology Acquisition Corp Cl A
-ATI	Allegheny Technologies Inc
+ATI	Ati Inc
 ATI.W	Ati Physical Therapy Inc WT
 ATIP	Ati Physical Therapy Inc
 ATKR	Atkore Inc
-ATM.U	Altimar Acquisition Corp II [Atmr.U]
-ATM.W	Altimar Acquisition Corp II Wt] [Atmr/W]
-ATMR	Altimar Acquisition Corp II Cl A
 ATO	Atmos Energy Corp
 ATR	Aptargroup
 ATTO	Atento S.A.
@@ -337,16 +324,18 @@ AVK	Advent Claymore Convertible Securities
 AVLR	Avalara Inc
 AVNS	Avanos Medical Inc
 AVNT	Avient Corp
-AVT-A	Avantor Inc [Avtr/Pa]
 AVTR	Avantor Inc
 AVY	Avery Dennison Corp
 AVYA	Avaya Holdings Corp
 AWF	Alliancebernstein Global High Income Fund
 AWI	Armstrong World Industries Inc
 AWK	American Water Works
-AWP	Aberdeen Global Premier Properties Fund
+AWP	Abrdn Global Premier Properties Fund
 AWR	American States Water Company
 AX	Axos Financial Inc
+AXA.P	Axios Sustainable Growth Acquisition [Axac/R]
+AXA.W	Axios Sustainable Growth Acquisition WT [Axac/W]
+AXAC	Axios Sustainable Growth Acquisition Corp
 AXH	Industrial Human Capital Inc
 AXH.U	Industrial Human Capital Inc Units
 AXH.W	Industrial Human Capital Inc WT
@@ -372,21 +361,22 @@ BAC-E	Bank of America Corp [Bac/Pe]
 BAC-K	Bank of America Corp [Bac/Pk]
 BAC-L	Bank of America Corp [Bac/Pl]
 BAC-M	Bank of America Corp [Bac/Pm]
-BAC-N	Bank of America Corp Prf Perpetual USD Ser LL D
+BAC-N	Bank of America Corp Prf Perpetual USD Ser Ll D
 BAC-O	Bank of America Corp
 BAC-P	Bank of America Corp
 BAC-Q	Bank of America Corp
+BAC-S	Bank of America Corp
 BAC.U	Berenson Acquisition Corp I [Baca.U]
 BAC.W	Berenson Acquisition Corp I WT [Baca/W]
 BACA	Berenson Acquisition Corp I Cl A
 BAH	Booz Allen Hamilton Holding Corp
 BAK	Braskem S.A. ADR
+BALL	Ball Corporation
 BALY	Bally's Corp
 BAM	Brookfield Asset Management Inc
 BAMH	Brookfield Finance Inc 4.625% Subordinated Notes
 BAMI	Brookfield Finance Inc 4.50%
 BAMR	Brookfield Asset Management Reinsurance Partners
-BAN-E	Banc of California Inc [Banc/Pe]
 BANC	First Pactrust Bancorp
 BAP	Credicorp Ltd
 BAR.W	The Original Bark CO WT
@@ -399,11 +389,10 @@ BBAR	Bbva Banco Frances S.A.
 BBD	Banco Bradesco S.A. ADR
 BBDC	Barings Bdc Inc
 BBDO	Banco Bradesco S.A. ADR
-BBL	Bhp Billiton Plc ADR
-BBL.W	Babylon Holdings Ltd WT [Bbln/W]
 BBLN	Babylon Hldgs Ltd
 BBN	Balckrock Build America Trust
 BBU	Brookfield Business Partners LP
+BBUC	Brookfield Business Corp
 BBVA	Banco Bilbao Viscaya Argentaria S.A. ADR
 BBW	Build-A-Bear Workshop
 BBWI	Bath & Body Works Inc
@@ -439,7 +428,10 @@ BEST	Best Inc ADR
 BF.A	Brown Forman Inc Cl A
 BF.B	Brown Forman Inc Cl B
 BFA.U	Battery Future Acquisition Corp [Bfac.U]
+BFA.W	Battery Future Acquisition Corp WT [Bfac/W]
+BFAC	Battery Future Acquisition Corp Cl A
 BFAM	Bright Horizons Family Solutions Inc
+BFH	Bread Financial Hldgs Inc
 BFK	Blackrock Muni Income Trust
 BFL.W	Butterfly Network Inc WT [Bfly/W]
 BFLY	Butterfly Network Inc
@@ -473,8 +465,7 @@ BHR	Braemar Hotels & Resorts Inc
 BHR-B	Braemar Hotels & Resorts Inc [Bhr/Pb]
 BHR-D	Braemar Hotels & Resorts Inc [Bhr/Pd]
 BHV	Blackrock Virginia Muni Trust
-BHVN	Biohaven Pharmaceutical Holding Ltd
-BIF	Boulder Growth & Income Fund Inc
+BHVN	Biohaven Ltd
 BIG	Big Lots
 BIGZ	Blackrock Innovation and Growth Trust
 BILL	Bill.com Holdings Inc
@@ -485,6 +476,7 @@ BIP-A	Brookfield Infrastructure Partners L.P.
 BIP-B	Brookfield Infrastructure Partners L.P.
 BIPC	Brookfield Infrastructure Partners LP Cl A
 BIPH	Brookfield Infrastructure Corp 5.000%
+BIPI	Bip Bermuda Holdings I 5.125% Perpetual
 BIT	Blackrock Multi-Sector Income T
 BIT.U	Bite Acquisition Corp [Bite.U]
 BIT.W	Bite Acquisition Corp [Bite/W]
@@ -502,11 +494,11 @@ BKS.W	Blacksky Technology Inc WT [Bksy.W]]
 BKSY	Blacksky Technology Inc
 BKT	Blackrock Income Trust Inc
 BKU	BankUnited Inc
+BLCO	Bausch & Lomb Corp
 BLD	Topbuild Corp
 BLDR	Builders Firstsource
 BLE	Blackrock Muni Income Trust II
 BLK	Blackrock Inc
-BLL	Ball Corp
 BLND	Blend Labs Inc Cl A
 BLU.U	Blueriver Acquisition Corp [Blua.U]
 BLU.W	Blueriver Acquisition Corp WT [Blua/W]
@@ -524,6 +516,7 @@ BML-G	Bank of America Corp [Bml/Pg]
 BML-H	Bank of America Corp [Bml/Ph]
 BML-J	Bank of America Corp [Bml/Pj]
 BML-L	Bank of America Corp [Bml/Pl]
+BMN	Blackrock 2037 Municipal Target Term
 BMO	Bank of Montreal
 BMY	Bristol-Myers Squibb Company
 BNED	Barnes & Noble Education Inc C
@@ -536,6 +529,7 @@ BOA.U	Bluescape Opportunities Acquisition [Boac.U]
 BOA.W	Bluescape Opportunities Acquisition [Boac/W]
 BOAC	Bluescape Opportunities Acquisition Cl A
 BOAS	Boa Acquisition Corp Cl A
+BOC	Boston Omaha Corp Cl A
 BOD.W	The Beachbody CO Inc WT
 BODY	The Beachbody Company Inc Cl A
 BOE	Blackrock Global
@@ -543,18 +537,19 @@ BOH	Bank of Hawaii Corp
 BOH-A	Bank of Hawaii
 BOOT	Boot Barn Holdings Inc
 BORR	Borr Drilling Ltd
-BOW.W	Bowlero Corp WT [Bowl/W]
 BOWL	Bowlero Corp Cl A
 BOX	Box Inc
 BOX.W	Boxed Inc WT [Boxd/W]
 BOXD	Boxed Inc
 BP	BP Plc ADR
-BPMP	BP Midstream Partners LP
 BPT	BP Prudhoe Bay Royalty Trust
 BQ	Boqii Holding Ltd ADR
 BR	Broadridge Financial Solutions Llc
 BRBR	Bellring Brands Inc Cl A
 BRC	Brady Corp
+BRCC	Brc Inc Cl A
+BRD	Beard Energy Transition Acquisition Corp Cl A
+BRD.T	Bird Global Inc WT [Brds/W]
 BRD.U	Beard Energy Transition Acquisition [Brd.U]
 BRD.W	Beard Energy Transition Acquisition WT
 BRDG	Bridge Investment Group Holdings Inc Cl A
@@ -569,7 +564,6 @@ BRSP	Brightspire Capital Inc
 BRT	BRT Realty Trust
 BRW	Saba Capital Income & Opportunities Fund
 BRX	Brixmor Property Group Inc
-BSA	Brightsphere Investment Group Plc
 BSA.U	Black Spade Acquisition Co. [Bsaq.U]
 BSA.W	Black Spade Acquisition Co. WT [Bsaq/W]
 BSAC	Banco Santander Chile ADR
@@ -613,6 +607,9 @@ BXSL	Blackstone Secured Lending Fund
 BY	Byline Bancorp Inc
 BYD	Boyd Gaming Corp
 BYM	Blackrock Muni Income Quality Trust
+BYN	Banyan Acquisition Corp Cl A
+BYN.U	Banyan Acquisition Corp
+BYN.W	Banyan Acquisition Corp WT
 BZH	Beazer Homes USA
 C	Citigroup Inc
 C-J	Citigroup Inc [C/Pj]
@@ -636,9 +633,6 @@ CANO	Cano Health Inc
 CAPL	Crossamerica Partners LP
 CARR	Carrier Global Corp
 CARS	Cars.com Inc
-CAS	Cascade Acquisition Corp Cl A
-CAS.U	Cascade Acquisition Corp Units
-CAS.W	Cascade Acquisition Corp WT
 CAT	Caterpillar Inc
 CATO	Cato Corp
 CB	Chubb Ltd
@@ -650,12 +644,8 @@ CBT	Cabot Corp
 CBU	Community Bank System
 CBZ	Cbiz Inc
 CC	Chemours Company
-CCA.U	Citic Capital Acquisition [Ccac.U]
-CCA.W	Citic Capital Acquisition [Ccac/W]
-CCAC	Citic Capital Acquisition Corp Cl A
-CCC.W	CCC Intelligent Solutions Hldgs Inc WT [CCcs/W]
 CCCS	CCC Intelligent Solutions Hldgs Inc
-CCI	Crown Castle International Corp
+CCI	Crown Castle Inc
 CCJ	Cameco Corp
 CCK	Crown Cork & Seal Company
 CCL	Carnival Corp
@@ -665,15 +655,14 @@ CCRD	Corecard Corp
 CCS	Century Communities Inc
 CCU	Compania Cervecerias Unidas S.A. ADR
 CCV	Churchill Capital V Cl A
-CCV.S	Churchill Capital Corp VI [Ccvi.U]
-CCV.T	Churchill Capital Corp VI WT [Ccvi/W]
+CCV.S	Churchill Capital Corp Vi [Ccvi.U]
+CCV.T	Churchill Capital Corp Vi WT [Ccvi/W]
 CCV.U	Churchill Capital Corp V [Ccv.U]
 CCV.W	Churchill Capital V WT [Ccv/W]
-CCVI	Churchill Capital Corp VI Cl A
+CCVI	Churchill Capital Corp Vi Cl A
 CCZ	Comcast Corp
 CDAY	Ceridian Hcm Holding Inc
 CDE	Coeur Mining Inc
-CDR	Cedar Realty Trust Inc
 CDR-B	Cedar Realty Trust Inc [Cdr/Pb]
 CDR-C	Cedar Realty Trust Inc [Cdr/Pc]
 CDRE	Cadre Holdings Inc
@@ -682,7 +671,6 @@ CEA	China Eastern Airlines Corp Ltd ADR
 CEE	Central Europe and Russia Fund
 CEIX	Consol Energy Inc
 CEL.P	Bristol Myers Squibb Co. [Celg/R]
-CELP	Cypress Energy Partners LP
 CEM	Clearbridge Energy MLP Fund Inc
 CEN	Center Coast MLP & Infrastructure
 CEPU	Central Puerto S.A. ADR
@@ -694,8 +682,6 @@ CFG-D	RBS Citizens Finl Group Inc [Cfg/Pd]
 CFG-E	Citizens Financial Group Inc Prf Perpetual USD 2
 CFR	Cullen/Frost Bankers
 CFR-B	Cullen/Frost Bankers Inc
-CFX	Colfax Corp
-CFXA	Colfax Corp Tangible Equity Unit
 CGA	China Green Agriculture
 CGAU	Centerra Gold Inc
 CHA.S	Catcha Investment Corp [Chaa.U]
@@ -718,7 +704,6 @@ CHT	Chunghwa Telecom Co. Ltd ADR
 CHWY	Chewy Inc
 CI	Cigna Corp
 CIA	Citizens Inc
-CIAN	Cian Plc ADR
 CIB	Bancolombia S.A. ADR
 CIEN	Ciena Corp
 CIF	Colonial Intermediate High
@@ -730,14 +715,11 @@ CIM-A	Chimera Invt Corp [Cim/Pa]
 CIM-B	Chimera Invt Corp [Cim/Pb]
 CIM-C	Chimera Invt Corp [Cim/Pc]
 CIM-D	Chimera Invt Corp [Cim/Pd]
-CINR	Ciner Resources LP
 CINT	CI&T Inc Cl A
 CIO	City Office REIT Inc
 CIO-A	City Office REIT Inc [Cio/Pa]
 CION	Cion Investment Corp
 CIR	Circor International
-CIT	Cit Group Inc
-CIT-B	Cit Group Inc 5.625% Prf Perpetual USD 25 Ser B
 CIVI	Civitas Resources Inc
 CIXX	CI Financial Corp OR
 CL	Colgate-Palmolive Company
@@ -807,16 +789,14 @@ CNO	Cno Financial Group
 CNO-A	Cno Financial Group Inc 5.125%
 CNP	Centerpoint Energy Inc
 CNQ	Canadian Natural Resources
-CNR	Cornerstone Building Brands Inc
 CNS	Cohn & Steers Inc
 CNVY	Convey Holding Parent Inc
 CNX	CNX Resources Corp
-CO	Global Cord Blood Corp
 COD-A	Compass Div Holdings [Codi/Pa]
 COD-B	Compass Div Holdings [Codi/Pb]
 COD-C	Compass Div Holdings [Codi/Pc]
 CODI	Compass Diversified Holdings
-COE	China Online Education Group ADR
+COE	51Talk Online Education Group
 COF	Capital One Financial Corp
 COF-I	Capital One Financial Corp [Cof/Pi]
 COF-J	Capital One Financial Corp [Cof/Pj]
@@ -828,7 +808,6 @@ COMP	Compass Inc Cl A
 COO	Cooper Companies
 COOK	Traeger Inc
 COP	Conocophillips
-COR	Coresite Realty Corp
 COR-Z	Corenergy Infrastructure TR IN [Corr/Pa]
 COR.U	Corsair Partnering Corp [Cors.U]
 COR.W	Corsair Partnering Corp WT [Cors/W]
@@ -844,13 +823,9 @@ CPE	Callon Petroleum Company
 CPF	Central Pacific Financial Company
 CPG	Crescent Pt Energy
 CPK	Chesapeake Utilities Corp
-CPLG	Corepoint Lodging Inc
 CPNG	Coupang Inc Cl A
 CPRI	Capri Holdings Ltd
 CPS	Cooper Std Holdings Inc
-CPS.U	Capstar Special Acquisition Corp [Cpsr.U]
-CPS.W	Capstar Special Acquisition Corp [Cpsr/W]
-CPSR	Capstar Special Acquisition Corp Cl A
 CPT	Camden Property Trust
 CPT.U	Crown Proptech Acquisitions [Cptk.U]
 CPT.W	Crown Proptech Acquisitions WT [Cptk/W]
@@ -858,7 +833,8 @@ CPTK	Crown Proptech Acquisitions Cl A
 CPU.U	Compute Health Acquisition Corp [Cpuh.U]
 CPU.W	Compute Health Acquisition Corp WT [Cpuh/W]
 CPUH	Compute Health Acquisition Corp Cl A
-CR	Crane Company
+CR	Crane Holdings CO
+CRBG	Corebridge Financial Inc
 CRC	California Resources Corp
 CRD.A	Crawford Co. Cl A
 CRD.B	Crawford Co. Cl B
@@ -870,18 +846,14 @@ CRHC	Cohn Robbins Holdings Corp Cl A
 CRI	Carter's Inc
 CRK	Comstock Resources
 CRL	Charles River Laboratories Intl
-CRM	Salesforce.com Inc
+CRM	Salesforce Inc
 CRS	Carpenter Technology Corp
 CRT	Cross Timbers Royalty Trust
 CRU	Crucible Acquisition Corp Cl A
 CRU.U	Crucible Acquisition Corp
-CRU.W	Crucible Acquisition Corp WT
-CRY	Cryolife
 CS	Credit Suisse Group ADR
 CSAN	Cosan Sa Spon ADR WI
 CSL	Carlisle Companies Inc
-CSLT	Castlight Health Inc
-CSPR	Casper Sleep Inc
 CSR	Centerspace
 CSR-C	Centerspace Prf
 CST.U	Constellation Acquisition Corp [Csta.U]
@@ -893,16 +865,15 @@ CTA-A	Du Pont E.I. DE Nemours & Co. [Cta/Pa]
 CTA-B	Du Pont E.I. DE Nemours & Co. [Cta/Pb]
 CTBB	Qwest Corp
 CTDD	Qwest Corp 6.75% Notes Due 2057
-CTK	Cootek Cayman Inc ADR
 CTLT	Catalent Inc
-CTO	Consolidated-Tomoka Land Company
+CTO	Cto Realty Growth Inc
 CTO-A	Cto Realty Growth Inc
 CTO.W	Custom Truck One Source WT [Ctos/W]
 CTOS	Custom Truck One Source
 CTR	Clearbridge Energy MLP Fund IN
 CTRA	Coterra Energy Inc
+CTRE	Caretrust REIT Inc
 CTS	Cts Corp
-CTT	Catchmark Timber Trust Inc
 CTV	Innovid Corp
 CTV.W	Innovid Corp WT
 CTVA	Corteva Inc
@@ -934,7 +905,9 @@ CWH	Camping World Holdings Inc
 CWK	Cushman & Wakefield Plc
 CWT	California Water Service Group Holding
 CX	Cemex S.A.B. DE C.V. ADR
-CXA.U	C5 Acquisition Corporation [Cxac.U]
+CXA.U	C5 Acquisition Corp [Cxac.U]
+CXA.W	C5 Acquisition Corp WT [Cxac/W]
+CXAC	C5 Acquisition Corp Cl A
 CXE	Colonial High Income Muni Trust
 CXH	Colonial Investment Grade Muni Trust
 CXM	Sprinklr Inc Cl A
@@ -965,8 +938,7 @@ DCO	Ducommun Inc
 DCP	Dcp Midstream LP
 DCP-B	Dcp Midstream LP [Dcp/Pb]
 DCP-C	Dcp Midstream LP [Dcp/Pc]
-DCUE	Dominion Energy Inc 2019 Series A
-DD	Du Pont De.Nemours Inc
+DD	Dupont Denemours Inc
 DDD	3D Systems Corp
 DDF	Delaware Dividend & Income
 DDL	Dingdong [Cayman] Ltd ADR
@@ -981,6 +953,7 @@ DEN	Denbury Inc
 DEO	Diageo Plc ADR
 DESP	Despegar.com Corp
 DEX	Delaware Enhanced Global Dividend
+DFH	Dream Finders Homes Inc Cl A
 DFIN	Donnelly Financial Solutions Inc
 DFP	Flaherty & Crumrine Dynamic
 DFS	Discover Financial Services
@@ -989,13 +962,12 @@ DGX	Quest Diagnostics Inc
 DHF	Dreyfus High Yield Strategies Fund
 DHI	D.R. Horton
 DHR	Danaher Corp
-DHR-A	Danaher Corp [Dhr/Pa]
 DHR-B	Danaher Corp [Dhr/Pb]
 DHT	Dht Holdings
 DHX	Dice Holdings
 DIAX	Nuveen Dow
-DIDI	Didi Global Inc ADR
 DIN	Dineequity Inc
+DINO	HF Sinclair Corp
 DIS	Walt Disney Company
 DK	Delek US Holdings
 DKL	Delek Logistics Partners LP
@@ -1016,9 +988,9 @@ DMB	Dreyfus Municipal Bond Infrastr
 DMO	Western Asset Mortgage Defined Opp
 DMS	Digital Media Solutions Inc
 DMS.W	Digital Media Solutions Inc WT
-DMY.E	Dmy Technology Group Inc VI [Dmys.U]
-DMY.Y	Dmy Technology Group Inc VI WT [Dmys/W]
-DMYS	Dmy Technology Group Inc VI Cl A
+DMY.E	Dmy Technology Group Inc Vi [Dmys.U]
+DMY.Y	Dmy Technology Group Inc Vi WT [Dmys/W]
+DMYS	Dmy Technology Group Inc Vi Cl A
 DNA	Ginkgo Bioworks Hldgs Inc
 DNA.W	Ginkgo Bioworks Hldgs Inc WT
 DNB	Dun & Bradstreet Holdings Inc
@@ -1028,6 +1000,7 @@ DNP	Duff & Phelps Utilities Income
 DNZ	D and Z Media Acquisition Corp Cl A
 DNZ.U	D and Z Media Acquisition Corp Units
 DNZ.W	D and Z Media Acquisition Corp WT
+DO	Diamond Offshore Drilling Inc
 DOC	Physicians Realty Trust
 DOCN	Digitalocean Holdings Inc
 DOCS	Doximity Inc Cl A
@@ -1042,7 +1015,6 @@ DPG	Duff & Phelps Global Utility
 DPZ	Domino's Pizza Inc
 DQ	Daqo New Energy ADR
 DRD	Drdgold Ltd ADR
-DRE	Duke Realty Corp
 DRH	Diamondrock Hospitality Company
 DRH-A	Diamondrock Hospitality Company 8.250% Series A
 DRI	Darden Restaurants
@@ -1074,16 +1046,11 @@ DUK-A	Duke Energy Corp [Duk/Pa]
 DUKB	Duke Energy Corp 5.625%
 DV	Doubleverify Holdings Inc
 DVA	Davita Healthcare Partners Inc
-DVD	Dover Downs Entertainment
 DVN	Devon Energy Corp
-DWI.U	Delwinds Insurance Acquisition Corp [Dwin.U]
-DWI.W	Delwinds Insurance Acquisition [Dwin/W]
-DWIN	Delwinds Insurance Acquisition Corp Cl A
 DX	Dynex Capital
 DX-C	Dynex Capital Inc
 DXC	Dxc Technology Company
 DY	Dycom Industries
-DYFN	Angel Oak Dynamic Financial Strategies
 E	Eni S.P.A. ADR
 EAF	Graftech International Ltd
 EAI	Entergy Arkansas Inc
@@ -1098,21 +1065,21 @@ EC	Ecopetrol S.A. ADR
 ECAT	Blackrock ESG Capital Allocation Trust
 ECC	Eagle Point Credit Co. Inc
 ECC-D	Eagle Point Credit Company Inc
-ECCB	Eagle Point Credit Company
 ECCC	Eagle Point Credit Company
+ECCV	Eagle Point Credit Company Inc 5.375% Notes Due
 ECCW	Eagle Point Credit Company
 ECCX	Eagle Point Credit Company
-ECCY	Eagle Point Credit Company
 ECL	Ecolab Inc
 ECOM	Channeladvisor Corp
 ECVT	Pq Group Holdings Inc
-ED	Consolidated Edison Company of New York
+ED	Consolidated Edison Company
 EDD	Emerging Markets Domestic Debt Fund
-EDF	Stone Harbor Emerging Markets
+EDF	Virtus Stobe Harbor Emerging Mkts Inc Fund
 EDI	Stone Harbor Emerging Markets
 EDN	Empresa Distribuidora Y Comercializadora ADR
 EDR	Endeavor Group Holdings Inc Cl A
 EDU	New Oriental Education & Technology Group ADR
+EE	Excelerate Energy Inc Cl A
 EEA	European Equity Fund
 EEX	Emerald Expositions Events Inc
 EFC	Ellington Financial Llc
@@ -1122,6 +1089,7 @@ EFL	Eaton Vance Floating-Rate 2022 Target Term Trust
 EFR	Eaton Vance Senior Floating-Rate Fund
 EFT	Eaton Vance Floating Rate Income Trust
 EFX	Equifax Inc
+EFXT	Enerflex Ltd
 EGF	Blackrock Enhanced Government Fund
 EGG.U	EG Acquisition Corp [Eggf.U]
 EGG.W	EG Acquisition Corp WT [Eggf/W]
@@ -1130,6 +1098,7 @@ EGHT	8X8 Inc
 EGO	Eldorado Gold Corp
 EGP	Eastgroup Properties
 EGY	Vaalco Energy Inc
+EHAB	Enhabit Inc
 EHC	Encompass Health Corp
 EHI	Western Asset Global High
 EIC	Eagle Point Income Company
@@ -1141,10 +1110,11 @@ ELAN	Elanco Animal Health Inc
 ELAT	Elanco Animal Health Inc Units
 ELC	Entergy Louisiana Llc
 ELF	E.L.F. Beauty Inc
+ELME	Elme Communities
 ELP	Companhia Paranaense DE Energia [Copel] ADR
 ELS	Equity Lifestyle Properties
+ELV	Elevance Health Inc
 ELVT	Elevate Credit Inc
-ELY	Callaway Golf Company
 EMD	Western Asset Emerging Market Debt Fund Inc
 EME	Emcor Group
 EMF	Templeton Emerging Markets Fund
@@ -1155,16 +1125,15 @@ EMR	Emerson Electric Company
 ENB	Enbridge Inc
 ENBA	Enbridge Inc 6.375% Fixed-To-Floating Rate
 ENFN	Enfusion Inc Cl A
-ENIA	Enersis Americas S.A. American ADR
 ENIC	Enersis Chile S.A. ADR
 ENJ	Entergy New Orleans Inc
 ENLC	Enlink Midstream Llc
 ENO	Entergy New Orleans Incfirst
+ENOV	Enovis Corp
 ENP.U	Executive Network Partnering Corp Cl A [Enpc.U]
 ENP.W	Executive Network Partnering Corp WT [Enpc/W]
 ENPC	Executive Network Partnering Corp Cl A
 ENR	Energizer Holdings Inc
-ENR-A	Energizer Holdings Inc [Enr/Pa]
 ENS	Enersys Inc
 ENV	Envestnet Inc
 ENVA	Enova International Inc
@@ -1192,9 +1161,6 @@ EPW.W	Empowerment & Inclusion Cap I WT [Epwr/W]
 EPWR	Empowerment & Inclusion Capital I Corp Cl A
 EQC	Equity Commonwealth
 EQC-D	Equity Comwlth [Eqc/Pd]
-EQD	Equity Distribution Acquisition Corp Cl A
-EQD.U	Equity Distribution Acquisition Corp Units
-EQD.W	Equity Distribution Acquisition Corp WT
 EQH	Axa Equitable Holdings Inc
 EQH-A	Axa Equitable Holdings Inc 5.25% Prf Perpetual U
 EQH-C	Equitable Holdings Inc
@@ -1209,8 +1175,8 @@ ERF	Enerplus Corp
 ERJ	Embraer-Empresa Brasileira DE Aeronautica ADR
 ERO	Ero Copper Corp
 ES	Eversource Energy
+ESAB	Esab Corp
 ESE	Esco Technologies Inc
-ESGC	Eros Stx Global Corp
 ESI	Element Solutions Inc
 ESM	Esm Acquisition Corp Cl A
 ESM.U	Esm Acquisition Corp
@@ -1243,7 +1209,11 @@ ETY	Eaton Vance Tax-Managed Diversified Equity
 EURN	Euronav NV
 EVA	Enviva Partners LP
 EVC	Entravision Communications Corp
+EVE	Eve Mobility Acquisition Corp Cl A
+EVE.T	Eve Holding Inc WT [Evex/W]
 EVE.U	Eve Mobility Acquisition Corp
+EVE.W	Eve Mobility Acquisition Corp WT
+EVEX	Eve Holding Inc
 EVF	Eaton Vance Senior Income Trust
 EVG	Eaton Vance Short Diversified
 EVH	Evolent Health Inc Cl A Com
@@ -1266,6 +1236,7 @@ EXTN	Exterran Corp
 F	Ford Motor Company
 F-B	Ford Mtr Co. Del [F/Pb]
 F-C	Ford Motor Company 6% Notes Due December 1 2059
+F-D	Ford Motor Company 6.500% Notes
 FAC.S	Freedom Acquisition I [Fact.U]
 FAC.T	Freedom Acquisition I [Fact/W]
 FAC.U	Figure Acquisition Corp I [Faca.U]
@@ -1289,7 +1260,6 @@ FCAX	Fortress Capital Acquisition Corp Cl A
 FCF	First Commonwealth Financial Corp
 FCN	Fti Consulting
 FCPT	Four Corners Property Trust IN
-FCRW	First Eagle Alternative Capital Gbc Inc
 FCRX	First Eagle Alternative Capital Bdc
 FCT	Senior Floating Rate II
 FCX	Freeport-Mcmoran Inc
@@ -1324,6 +1294,7 @@ FINV	Finvolution Group ADR
 FIS	Fidelity National Information Services
 FIX	Comfort Systems USA
 FL	Footlocker Inc
+FLA.U	First Light Acquisition [Flag.U]
 FLA.W	First Light Acquisition WT [Flag/W]
 FLAG	First Light Acquisition Group Cl A
 FLC	Flaherty & Crumrine/Claymore Total Return
@@ -1332,19 +1303,14 @@ FLM.W	Flame Acquisition Corp [Flme/W]
 FLME	Flame Acquisition Corp Cl A
 FLNG	Flex Lng Ltd
 FLO	Flowers Foods
-FLOW	SPX Flow Inc
 FLR	Fluor Corp
 FLS	Flowserve Corp
 FLT	Fleetcor Technologies
 FLY.U	Soar Technology Acquisition [Flya.U]
 FLY.W	Soar Technology Acquisition WT [Flya/W]
 FLYA	Soar Technology Acquisition Corp Cl A
-FMA.U	Firstmark Horizon Acquisition Corp [Fmac.U]
-FMA.W	Firstmark Horizon Acquisition Corp [Fmac/W]
-FMAC	Firstmark Horizon Acquisition Corp Cl A
 FMC	FMC Corp
 FMN	Federated Premier Muni
-FMO	Fiduciary/Claymore MLP Opportunity Fund
 FMS	Fresenius Medical Care Corp ADR
 FMX	Fomento Economico Mexicano S.A.B. DE C.V. ADR
 FMY	First Trust/Fidac Mortgage Income Fund
@@ -1357,7 +1323,6 @@ FNF	Fidelity National Financial
 FNV	Franco Nev Corp
 FOA	Finance of America Companies Inc Cl A
 FOA.W	Finance of America Companies Inc WT
-FOE	Ferro Corp
 FOF	Cohen & Steers Closed-End Opportunity Fund
 FOR	Forestar Group Inc
 FORG	Forgerock Inc Cl A
@@ -1381,6 +1346,7 @@ FRC-M	First Republic Bank ADR
 FRC-N	First Republic Bank [Ca]
 FRE.W	Freyr Battery WT [Frey/W]
 FREY	Freyr Battery
+FRGE	Forge Global Hldgs Inc
 FRO	Frontline Ltd
 FRT	Federal Realty Investment Trust
 FRT-C	Federal Realty Invt TR [Frt/Pc]
@@ -1396,14 +1362,7 @@ FSN.W	Fusion Acquisition Corp II [Fsnb/W]
 FSNB	Fusion Acquisition Corp II Cl A
 FSR	Fisker Inc
 FSS	Federal Signal Corp
-FST	Fast Acquisition Corp Cl A
-FST.U	Fast Acquisition Corp Units
-FST.W	Fast Acquisition Corp WT
 FT	Franklin Universal Trust
-FTA-A	Fortress Transn & Infras Invs [Ftai/Pa]
-FTA-B	Fortress Transn & Infras Invs [Ftai/Pb]
-FTA-C	Fortress Transn & Infras Invs [Ftai/Pc]
-FTAI	Fortress Transn & Infras Invs
 FTCH	Farfetch Ltd Cl A
 FTE.U	Fintech Evolution Acquisition Units [Ftev.U]
 FTE.W	Fintech Evolution Acquisition Units [Ftev/W]
@@ -1431,13 +1390,15 @@ G	Genpact Ltd
 GAB	Gabelli Equity Trust
 GAB-G	Gabelli Equity Trust Inc [Gab/Pg]
 GAB-H	Gabelli Equity Trust Inc [Gab/Ph]
-GAB-J	Gabelli Equity Trust Inc [Gab/Pj]
 GAB-K	Gabelli Equity Trust Inc 5% Prf Perpetual USD 25
 GAM	General American Investors
 GAM-B	General Amern Invs Inc [Gam/Pb]
 GAP.U	G&P Acquisition Corp [Gapa.U]
 GAP.W	G&P Acquisition Corp WT [Gapa/W]
 GAPA	G&P Acquisition Corp Cl A
+GAQ	Generation Asia I Acquisition Cl A
+GAQ.U	Generation Asia I Acquisition [Gaq.U]
+GAQ.W	Generation Asia I Acquisition [Gaq/W]
 GATO	Gatos Silver Inc
 GATX	GATX Corp
 GB	Global Blue Group Holding Ag
@@ -1446,11 +1407,11 @@ GBAB	Guggenheim Taxable Muni Bond Inv Grd Debt Trst
 GBCI	Glacier Bancorp Inc
 GBL	Gamco Investors
 GBLI	Global Indemnity Plc
-GBLL	Global Indemnity Ltd 7.875%
+GBT.W	Global Business Travel Group Inc WT [Gbtg.W]
+GBTG	Global Business Travel Group Inc
 GBX	Greenbrier Companies
 GCI	Gannett Co. Inc
 GCO	Genesco Inc
-GCP	Gcp Applied Technologies Inc C
 GCV	Gabelli Convertible and Income Securities
 GD	General Dynamics Corp
 GDDY	Godaddy Inc
@@ -1459,18 +1420,20 @@ GDL-C	Gdl Fund [Gdl/Pc]
 GDO	Western Asset Global Corporate Defined
 GDOT	Green Dot Corp
 GDV	Gabelli Dividend
-GDV-G	Gabelli Dividend & Income Trust [Gdv/Pg]
 GDV-H	Gabelli Dividend & Income Trust [Gdv/Ph]
 GDV-K	Gabelli Dividend & Income Trust
 GE	General Electric Company
 GEF	Greif Bros. Corp
 GEF.B	Greif Bros. Corp Cl B
+GEHI	Gravitas Education Hldgs Inc
 GEL	Genesis Energy LP
 GEN.W	Genius Sports Ltd WT [Geni/W]
 GENI	Genius Sports Ltd
 GEO	Geo Group Inc
 GER	GS MLP Energy Renaissance Fund
 GES	Guess Inc
+GET.W	Getty Images Holdings WT [Gety/W]
+GETY	Getty Images Holdings Inc Cl A
 GF	New Germany Fund
 GFF	Griffon Corp
 GFI	Gold Fields Ltd ADR
@@ -1488,7 +1451,6 @@ GGT	Gabelli Global Multi-Media Trust
 GGT-E	Gabelli Multimedia Trust Inc [Ggt/Pe]
 GGT-G	Gabelli Multimedia Trust Inc 5.125% Prf Perpetua
 GGZ	Gabelli Global Small and Mid CA
-GGZ-A	Gabelli Global Small & Mid Cap Val [Ggz/Pa]
 GHC	Graham Holdings Company
 GHG	Greentree Hospitality Group Ltd ADR
 GHL	Greenhill & Co. Inc
@@ -1515,13 +1477,14 @@ GL-D	Globe Life Inc 4.25% Junior Debt
 GLO-A	Gaslog Partners LP [Glop/Pa]
 GLO-B	Gaslog Partners LP [Glop/Pb]
 GLO-C	Gaslog Partners LP [Glop/Pc]
-GLO-G	Gaslog Partners LP [Glop/Pg]
+GLO-G	Gaslog Ltd 8.75% [Glog/Pa]
 GLOB	Globant S.A.
 GLOP	Gaslog Partners LP
 GLP	Global Partners LP
 GLP-A	Global Partners LP [Glp/Pa]
 GLP-B	Global Partners L.P.
 GLS	Gelesis Holdings Inc
+GLS.W	Gelesis Holdings Inc WT
 GLT	Glatfelter
 GLW	Corning Inc
 GM	General Motors Company
@@ -1540,9 +1503,6 @@ GNRC	Generac Holdings Inc
 GNT	Gabelli Natural Resources Gold
 GNT-A	Gamco Nat Res Gold & Income TR [Gnt/Pa]
 GNW	Genworth Financial Inc
-GOA.U	Go Acquisition Corp WT [Goac.U]
-GOA.W	Go Acquisition Corp [Goac/W]
-GOAC	Go Acquisition Corp Cl A
 GOF	Claymore/Guggenheim Strategic Fund
 GOG.U	Gogreen Investments Corp [Gogn.U]
 GOG.W	Gogreen Investments Corp WT [Gogn/W]
@@ -1566,6 +1526,10 @@ GRB-A	Green Brick Partners Inc [Grbk.A]
 GRBK	Green Brick Partners
 GRC	Gorman-Rupp Company
 GRMN	Garmin Ltd
+GRN.W	Granite Ridge Resources WT [Grnt/W]
+GRNT	Granite Ridge Resources Inc
+GRO.T	Grove Collaborative Holdings WT (Grov/W)
+GROV	Grove Collaborative Hldgs Inc
 GRP.U	Granite Real Estate Invt TR
 GRX	The Gabelli Healthcare & Wellness Trust
 GS	Goldman Sachs Group
@@ -1575,10 +1539,9 @@ GS-D	Goldman Sachs Group Inc [Gs/Pd]
 GS-J	Goldman Sachs Group Inc [Gs/Pj]
 GS-K	Goldman Sachs Group Inc [Gs/Pk]
 GSBD	Goldman Sachs Bdc Inc
-GSK	Glaxosmithkline Plc ADR
+GSK	Gsk Plc ADR
 GSL	Global Ship Lease Inc
 GSL-B	Global Ship Lease Inc [Gsl/Pb]
-GSLD	Global Ship Lease Inc 8.00% Senior Notes Due 20
 GSQ.S	G Squared Ascend II Inc [Gsqb.U]
 GSQ.T	G Squared Ascend II WT [Gsqb/W]
 GSQ.U	G Squared Ascend I Inc [Gsqd.U]
@@ -1589,14 +1552,11 @@ GTES	Gates Industrial Corp Plc
 GTLS	Chart Industries IN
 GTN	Gray Television
 GTN.A	Gray Television Inc Cl A
-GTS	Triple-S Management Corp
 GTY	Getty Realty Corp
 GUG	Guggenheim Active Allocation Fund
 GUT	Gabelli Utility Trust
-GUT-A	Gabelli Utility Trust [Gut/Pa]
 GUT-C	Gabelli Utility Trust [Gut/Pc]
 GVA	Granite Construction Inc
-GWB	Great Western Bancorp Inc
 GWH	Ess Tech Inc
 GWH.W	Ess Tech Inc WT
 GWRE	Guidewire Software Inc
@@ -1623,10 +1583,8 @@ HEP	Holly Energy Partners LP
 HEQ	John Hancock Hedged Eqty & Inc
 HES	Hess Corp
 HESM	Hess Midstream Partners LP
-HFC	Hollyfrontier Corp
 HFR-A	Highland Income Fund [Hfro/Pa]
 HFRO	Highland Floating Rate Opportunities Fund
-HGH	The Hartford Financial Srvcs G
 HGLB	Highland Global Allocation Fund
 HGT.W	Hagerty Inc WT
 HGTY	Hagerty Inc
@@ -1640,7 +1598,6 @@ HIE	Miller/Howard High Income Eqty
 HIG	Hartford Financial Services Group
 HIG-G	Hartford Financial Services Grp Inc [Hig/Pg]
 HIG.U	H.I.G. Acquisition Corp [Higa.U]
-HIG.W	H.I.G. Acquisition Corp WT [Higa/W]
 HIGA	H.I.G. Acquisition Corp Cl A
 HII	Huntington Ingalls Industries
 HIL	Hill International Inc
@@ -1650,7 +1607,7 @@ HIP.W	Hippo Holdings Inc WT [Hipo/W]
 HIPO	Hippo Holdings Inc
 HIW	Highwoods Properties
 HIX	Western Asset High Income Fund II Inc
-HKIB	Amtd International Inc ADR
+HKD	Amtd Digital Inc ADR
 HL	Hecla Mining Company
 HL-B	Hecla Mining Co. [Hl/Pb]
 HLF	Herbalife Ltd
@@ -1660,18 +1617,20 @@ HLI	Houlihan Lokey
 HLIO	Helios Technologies Inc
 HLL.W	Holley Inc [Hlly/W]
 HLLY	Holley Inc
+HLN	Haleon Plc
 HLT	Hilton Inc
 HLX	Helix Energy Solutions Group
+HMA	Heartland Media Acquisition Corp Cl A
+HMA.U	Heartland Media Acquisition Corp
+HMA.W	Heartland Media Acquisition Corp WT
 HMC	Honda Motor Company ADR
 HML-A	Hoegh Lng Partners LP [Hmlp/Pa]
-HMLP	Hoegh Lng Partners LP
 HMN	Horace Mann Educators Corp
-HMY	Harmony Gold Mining Co. Ltd ADR
-HNGR	Hanger Inc
+HMY	Harmony Gold Mining ADR
 HNI	Hon Industries Inc
-HNP	Huaneng Power Intl ADR
 HOG	Harley-Davidson Inc
 HOMB	Home Bancshares Inc
+HOUS	Anywhere Real Estate Inc
 HOV	Hovnanian Enterprises Inc
 HP	Helmerich & Payne
 HPE	Hewlett Packard Enterprise Comp
@@ -1679,14 +1638,14 @@ HPF	John Hancock Pfd II
 HPI	John Hancock Preferred
 HPP	Hudson Pacific Properties
 HPP-C	Hudson Pacific Properties Inc
-HPQ	HP Inc
+HPQ	Hp Inc
 HPS	John Hancock Preferred Income Fund III
 HPX	Hpx Corp Cl A
 HPX.U	Hpx Corp Units
 HPX.W	Hpx Corp WT
 HQH	Tekla Healthcare Investors
 HQL	Tekla Life Sciences Investors
-HR	Healthcare Realty Trust Inc
+HR	Healthcare Realty Trust Inc.
 HRB	H&R Block
 HRI	Herc Holdings Inc
 HRL	Hormel Foods Corp
@@ -1699,12 +1658,12 @@ HT	Hersha Hospitality Trust
 HT-C	Hersha Hospitality TR [Ht/Pc]
 HT-D	Hersha Hospitality TR [Ht/Pd]
 HT-E	Hersha Hospitality TR [Ht/Pe]
-HTA	Healthcare Trust of America
 HTA.U	Hunt Companies Acquisition Corp [Htaq.U]
 HTA.W	Hunt Companies Acquisition Corp WT [Htaq/W]
-HTAQ	Hunt Companies Acquisition Corp. I Cl A
+HTAQ	Hunt Companies Acquisition Corp I Cl A
 HTD	John Hancock Tax Advantaged Dividend
 HTFB	Horizon Technology Finance Corp
+HTFC	Horizon Technology Finance Corp 6.25%
 HTGC	Hercules Technology Growth Capital
 HTH	Hilltop Holdings Inc
 HTP.U	Highland Transcend Partners I Corp [Htpa.U]
@@ -1730,7 +1689,8 @@ HY	Hyster-Yale Materials Handling
 HYB	New America High
 HYI	Western Asset High Yield Defined
 HYLN	Hyliion Hldg Corp Cl A
-HYT	Blackrock High Yield Fund VI Inc
+HYT	Blackrock High Yield Fund Vi Inc
+HYT.P	Blackrock Corp High Yield Inc WI [Hytrw]
 HZN	Horizon Global Corp Comm
 HZO	Marinemax Inc
 HZO.U	Horizon Acquisition Corp II 6.375% [Hzon.U]
@@ -1761,7 +1721,7 @@ IEX	Idex Corp
 IFF	International Flavors & Fragrances
 IFI.U	Infint Acquisition Corp [Ifin.U]
 IFI.W	Infint Acquisition Corp WT [Ifin/W]
-IFIN	Infint Acquisition Corporation Cl A
+IFIN	Infint Acquisition Corp Cl A
 IFN	India Fund
 IFS	Intercorp Financial Services Inc
 IGA	VOYA Global Advantage and Premium
@@ -1770,11 +1730,10 @@ IGI	Western Asset Investment Grade Defined
 IGR	CBRE Global Real Estate Income Fund
 IGT	International Game Technology
 IH	Ihuman Inc ADR
-IHC	Independence Holding Company
 IHD	VOYA Emerging Markets High Dividend
 IHG	Intercontinental Hotels Group ADR
 IHIT	Invesco High Income 2023 Target Term Fund
-IHS	IHS Holding Limited
+IHS	IHS Holding Ltd
 IHTA	Invesco High Income 2024 Target Term Fund
 IIF	Morgan Stanley India Investment Fund Inc
 IIIN	Insteel Industries
@@ -1782,41 +1741,32 @@ IIM	Invesco Insured Muni Income Trust
 IIP-A	Innovative Indl Pptys Inc [Iipr/Pa]
 IIPR	Innovative Industrial Properties
 IMAX	Imax Corp
-IMP.U	Aea Bridges Impact Corp [Impx.U]
-IMP.W	Aea Bridges Impact Corp WT [Impx/W]
-IMPX	Aea-Bridges Impact Corp Cl A
 INA.U	Insight Acquisition Corp [Inaq.U]
 INA.W	Insight Acquisition Corp WT [Inaq/W]
 INAQ	Insight Acquisition Corp Cl A
 INFA	Informatica Inc Cl A
-INFO	IHS Markit Ltd
 INFY	Infosys Ltd ADR
 ING	ING Groep N.V. ADR
 INGR	Ingredion Inc
 INN	Summit Hotel Properties
 INN-E	Summit Hotel Pptys Inc [Inn/Pe]
 INN-F	Summit Hotel Properties Inc
-INS	Intelligent Systems Corp
-INS-A	International Seaways Inc [Insw/Pa]
 INSI	Insight Select Income Fund
 INSP	Inspire Medical Systems Inc
 INST	Instructure Holdings Inc
 INSW	International Seaways Inc
 INT	World Fuel Services Corp
 INVH	Invitation Homes Inc
-IO	ION Geophysical Corp
 ION.W	Ionq Inc WT [Ionq/W]
 IONQ	Ionq Inc
 IOT	Samsara Inc Cl A
 IP	International Paper Company
 IPG	Interpublic Group of Companies
 IPI	Intrepid Potash Inc
-IPO.D	Social Capital Hedosophia IV Unit [Ipod.U]
-IPO.F	Social Capital Hedosophia VI Unit [Ipof.U]
-IPO.V	Social Capital Hedosophia IV WT [Ipod/W]
-IPO.Z	Social Capital Hedosophia VI WT [Ipof/W]
+IPO.D	Social Cap Hedosophia Corp IV [Ipod.U]
+IPO.F	Social Cap Hedosophia Corp Vi [Ipof.U]
 IPOD	Social Capital Hedosophia Corp IV Cl A
-IPOF	Social Capital Hedosophia Corp VI Cl A
+IPOF	Social Capital Hedosophia Corp Vi Cl A
 IPV.D	Interprivate II Acquisition Corp [Ipva.U]
 IPV.S	Interprivate III Finl Partners [Ipvf.U]
 IPV.T	Interprivate III Finl Partners WT [Ipvf/W]
@@ -1844,9 +1794,6 @@ ITGR	Integer Holdings Corp
 ITT	ITT Inc
 ITUB	Itau Unibanco Banco Holding S.A. ADR
 ITW	Illinois Tool Works Inc
-IVA.U	Ivanhoe Cap Acquisition Corp Unit [Ivan.U]
-IVA.W	Ivanhoe Cap Acquisition Corp WT [Ivan/W]
-IVAN	Ivanhoe Capital Acquisition Corp Cl A
 IVC	Invacare Corp
 IVH	Ivy High Income Opportunities
 IVR	Invesco Mortgage Capital Inc
@@ -1866,7 +1813,6 @@ JBL	Jabil Circuit
 JBT	John Bean Technologies Corp
 JCE	Nuveen Core Equity Alpha Fund
 JCI	Johnson Controls Intl
-JCO	Nuveen Credit Opportunities 2022 Target Term Fun
 JEF	Jefferies Financial Group Inc
 JELD	Jeld-Wen Holding Inc
 JEMD	Nuveen Emerging Markets Debt 2022 Target Term Fu
@@ -1879,7 +1825,7 @@ JHI	John Hancock Investors Trust
 JHS	John Hancock Income Securities Trust
 JHX	James Hardie Industries Se ADR
 JILL	J. Jill Inc
-JKS	Jinkosolar Holding Company Ltd ADR
+JKS	Jinkosolar Holding Company ADR
 JLL	Jones Lang Lasalle Inc
 JLS	Nuveen Mortgage Opportunity Term Fund
 JMIA	Jumia Technologies Ag ADR
@@ -1890,7 +1836,6 @@ JOB.W	Joby Aviation Inc WT
 JOBY	Joby Aviation Inc
 JOE	St. Joe Company
 JOF	Japan Smaller Capitalization Fund Inc
-JP	Jupai Holdings Ltd ADR
 JPC	Nuveen Preferred and Convertible
 JPI	Nuveen Preferred and Income Term Fund
 JPM	JP Morgan Chase & Company
@@ -1901,7 +1846,7 @@ JPM-K	Jpmorgan Chase & Co.
 JPM-L	Jpmorgan Chase & Co.
 JPM-M	Jpmorgan Chase & Co.
 JPS	Nuveen Quality Preferred 2
-JPT	Nuveen Preferred and Income 2022 Term Fund
+JPT	Nuveen Preferred and Income Fund
 JQC	Nuveen Preferred and Convertible 2
 JRI	Nuveen Real Asset Income and Gr
 JRO	Nuveen Floating Rate Income Opportuntiy
@@ -1911,8 +1856,6 @@ JT	Jianpu Technology Inc ADR
 JUN	Juniper II Corp Cl A
 JUN.U	Juniper II Corp Units
 JUN.W	Juniper II Corp WT
-JW.A	John Wiley Sons Cl A
-JW.B	John Wiley Sons Cl B
 JWN	Nordstrom
 JWS.S	Jaws Mustang Acquisition Corp [Jwsm.U]
 JWS.T	Jaws Mustang Acquisition Corp WT [Jwsm/W]
@@ -1939,7 +1882,8 @@ KEY	Keycorp
 KEY-I	Keycorp [Key/Pi]
 KEY-J	Keycorp [Key/Pj]
 KEY-K	Keycorp [Key/Pk]
-KEYS	Keysight Technologies Inc Comm
+KEY-L	Keycorp
+KEYS	Keysight Technologies Inc
 KF	Korea Fund
 KFS	Kingsway Financial Services
 KFY	Korn/Ferry International
@@ -1952,17 +1896,21 @@ KIO	KKR Income Opportunities Fund
 KKR	KKR & Co. LP
 KKR-C	KKR & Co. Inc [Kkr/Pc]
 KKRS	KKR Group Finance Co. Ix Llc
-KL	Kirkland Lake Gold Ltd
 KLR	Kaleyra Inc
 KMB	Kimberly-Clark Corp
 KMF	Kayne Anderson Midstream Energy Fund
 KMI	Kinder Morgan
+KMPB	Kemper Corp 5.875%
 KMPR	Kemper Corp
 KMT	Kennametal Inc
 KMX	Carmax Inc
 KN	Knowles Corp
 KNOP	Knot Offshore Partners LP
+KNS.U	Knightswan Acquisition Corp [Knsw.U]
+KNS.W	Knightswan Acquisition Corp WT [Knsw/W]
 KNSL	Kinsale Capital Group Inc
+KNSW	Knightswan Acquisition Corp Cl A
+KNTK	Kinetik Holdings Inc
 KNX	Knight-Swift Transporation Inc
 KO	Coca-Cola Company
 KODK	Eastman Kodak
@@ -1972,7 +1920,6 @@ KOR.W	Kore Group Holdings WT [Kore/W]
 KORE	Kore Group Holdings Inc
 KOS	Kosmos Energy Ltd
 KR	Kroger Company
-KRA	Kraton Performance Polymers Inc
 KRC	Kilroy Realty Corp
 KRE-A	KKR Real Estate Finance Trust Inc [Kref/Pa]
 KREF	KKR Real Estate Finance Trust Inc
@@ -1988,19 +1935,15 @@ KTH	Lehman Abs Corp
 KTN	Lehman Abs Corp
 KUKE	Kuke Music Holding Ltd ADR
 KW	Kennedy-Wilson Holdings Inc
-KWA.U	Kingswood Acquisition Corp [Kwac.U]
-KWA.W	Kingswood Acquisition Corp WT [Kwac/W]
-KWAC	Kingswood Acquisition Corp Cl A
 KWR	Quaker Chemical Corp
 KYN	Kayne Anderson MLP Investment Company
 L	Loews Corp
 LAC	Lithium Americas Corp
 LAD	Lithia Motors
 LADR	Ladder Capital Corp
-LAIX	Laix Inc ADR
 LAW	CS Disco Inc
 LAZ	Lazard Ltd
-LBRT	Liberty Oilfield Services Inc
+LBRT	Liberty Energy Inc
 LC	Lendingclub Corp
 LCI	Lannett Co. Inc
 LCII	Lci Industries
@@ -2011,9 +1954,6 @@ LDI	Loandepot Inc Cl A
 LDOS	Leidos Holdings Inc
 LDP	Cohen & Steers Ltd Duration Prfd Income Fund
 LEA	Lear Corp
-LEA.U	Ribbit Leap Ltd Cl A [Leap.U]
-LEA.W	Ribbit Leap Ltd [Leap/W]
-LEAP	Ribbit Leap Ltd Cl A
 LEG	Leggett & Platt Inc
 LEJU	Leju Holdings Ltd ADR
 LEN	Lennar Corp
@@ -2022,7 +1962,6 @@ LEO	Dreyfus Strategic Municipals
 LEV	The Lion Electric CO
 LEV.W	The Lion Electric CO WT
 LEVI	Levi Strauss & Co. Cl A
-LFC	China Life Insurance Company Ltd ADR
 LFG	Archaea Energy Inc
 LFT	Lument Finance Trust Inc
 LFT-A	Lument Finance Trust Inc
@@ -2037,23 +1976,22 @@ LHC	Leo Holdings Corp II Cl A
 LHC.U	Leo Holdings Corp II Units
 LHC.W	Leo Holdings Corp II WT
 LHX	L3Harris Technologies Inc
-LIC.W	Li-Cycle Holdings Corp WT [Licy/W]
 LICY	Li-Cycle Holdings Corp
 LII	Lennox International
 LIN	Linde Plc
 LITB	Lightinthebox Holding Co. Ltd ADR
-LL	LL Flooring Hldgs Inc
+LL	Ll Flooring Hldgs Inc
+LLA.W	Terran Orbital Corp WT [Llap/W]
+LLAP	Terran Orbital Corp
 LLY	Eli Lilly and Company
 LMND	Lemonade Inc
 LMT	Lockheed Martin Corp
 LNC	Lincoln National Corp
 LND	Brasilagro ADR
-LNF.U	L&F Acquisition Corp Unit [Lnfa.U]
-LNF.W	L&F Acquisition Corp [Lnfa/W]
-LNFA	L&F Acquisition Corp Cl A
 LNN	Lindsay Corp
-LOC.U	Live Oak Crestview Climate Acquisition [Locc.U]
-LOC.W	Live Oak Crestview Climate Acquisition WT [Locc/
+LOC.T	Local Bounti Corporation WT [Locl/W]
+LOC.U	Live Oak Climate Acquisition [Locc.U]
+LOC.W	Live Oak Climate Acquisition WT [Locc/W]
 LOCC	Live Oak Crestview Climate Acquisition Cl A
 LOCL	Local Bounti Corp
 LOK.S	Live Oak Mobility Acquisition Corp [Lokm.U]
@@ -2072,10 +2010,11 @@ LTC	Ltc Properties
 LTH	Life Time Group Holdings Inc
 LTHM	Livent Corp
 LU	Lufax Holding Ltd ADR
-LUB	Luby's Inc
 LUMN	Centurylink
 LUV	Southwest Airlines Company
 LVS	Las Vegas Sands
+LVW.W	Livewire Group Inc WT [Lvwr/W]
+LVWR	Livewire Group Inc
 LW	Lamb Weston Holdings Inc
 LXFR	Luxfer Holdings Plc
 LXP	Lxp Industrial Trust
@@ -2097,6 +2036,7 @@ MAIN	Main Street Capital Corp
 MAN	Manpower Inc
 MANU	Manchester United Ltd
 MAS	Masco Corp
+MATV	Mativ Holdings Inc
 MATX	Matson Inc
 MAV	Pioneer Municipal High Income Advantage Fund
 MAX	Mediaalpha Inc Cl A
@@ -2108,9 +2048,7 @@ MBI	MBIA Inc
 MBS.U	M3 Brigade Acquisition III [Mbsc.U]
 MBS.W	M3 Brigade Acquisition III WT [Mbsc/W]
 MBSC	M3-Brigade Acquisition III Corp Cl A
-MBT	Mobile Telesystems Public Joint Stock CO
 MC	Moelis
-MCA	Blackrock Muniyield California Insured Fund
 MCB	Metropolitan Bank Holding Corp
 MCD	McDonald's Corp
 MCG	Membership Collective Group Inc Cl A
@@ -2122,14 +2060,15 @@ MCR	MFS Charter Income Trust
 MCS	Marcus Corp
 MCW	Mister Car Wash Inc
 MCY	Mercury General Corp
-MD	Mednax Inc
+MD	Pediatrix Medical Group Inc
 MDC	M.D.C. Holdings
 MDH	Mdh Acquisition Corp Cl A
 MDH.U	Mdh Acquisition Corp Units
 MDH.W	Mdh Acquisition Corp WT
 MDT	Medtronic Inc
 MDU	Mdu Res Group Inc
-MDVA	Modiv Inc
+MDV	Modiv Inc Cl C
+MDV-A	Modiv Inc
 MEC	Mayville Engineering Company
 MED	Medifast Inc
 MEG	Montrose Environmental Group Inc
@@ -2147,14 +2086,12 @@ MFC	Manulife Financial Corp
 MFD	Macquarie/First Trust Global
 MFG	Mizuho Financial Group ADR
 MFGP	Micro Focus Intl Plc ADR
-MFL	Blackrock Muniholdings Investment Quality Fund
 MFM	MFS Muni Income Trust
 MFV	MFS Special Value Trust
 MG	Mistras Group Inc
 MGA	Magna International
 MGF	MFS Government Markets Income Trust
 MGM	MGM Resorts International
-MGP	MGM Growth Properties Llc
 MGR	Affiliated Managers Group Inc
 MGRB	Affiliated Managers Group Inc 4.750% Junior Sub
 MGRD	Affiliated Managers Group Inc 4.200%
@@ -2171,7 +2108,6 @@ MHLA	Maiden Holdings Ltd 6.625% No
 MHN	Blackrock Muniholdings New York Quality Fund
 MHNC	Maiden Holdings North America
 MHO	M/I Homes
-MIC	Macquarie Infrastructure Hldgs Llc
 MIN	MFS Intermediate Income Trust
 MIO	Pioneer Municipal High Income Opportunities Fund
 MIR	Mirion Technologies Inc
@@ -2207,22 +2143,20 @@ MMT	MFS Multimarket Income Trust
 MMU	Western Asset Managed Municipals Fund
 MN	Manning & Napier Inc
 MNP	Western Asset Muni Partners Fund
-MNR	Monmouth Real Estate Investment Corp
-MNR-C	Monmouth Real Estate Invt Corp [Mnr/Pc]
 MNRL	Brigham Minerals Inc
 MNSO	Miniso Group Holding Ltd ADR
 MNT.U	Everest Consolidator Acquisition [Mntn.U]
+MNT.W	Everest Consolidator Acquisition WT [Mntn/W]
+MNTN	Everest Consolidator Acquisition Corp Cl A
 MO	Altria Group
 MOD	Modine Manufacturing Company
+MODG	Topgolf Callaway Brands Corp
 MODN	Model N Inc
 MOG.A	Moog Inc Cl A
 MOG.B	Moog Inc Cl B
 MOGU	Mogu Inc ADR
 MOH	Molina Healthcare Inc
 MOS	Mosaic Company
-MOT.U	Motive Capital Corp [Motv.U]
-MOT.W	Motive Capital Corp WT [Motv/W]
-MOTV	Motive Capital Corp Cl A
 MOV	Movado Group Inc
 MP	Mp Materials Corp
 MPA	Blackrock Muniyield Pennsylvania Quality Fund
@@ -2246,6 +2180,7 @@ MS-I	Morgan Stanley [Ms/Pi]
 MS-K	Morgan Stanley [Ms/Pk]
 MS-L	Morgan Stanley 4.875% Prf Perpetual USD 25 1/100
 MS-O	Morgan Stanley
+MS-P	Morgan Stanley
 MSA	Msa Safety Inc
 MSB	Mesabi Trust
 MSC	Studio City Intl Holdings Ltd ADR
@@ -2255,24 +2190,23 @@ MSGE	Madison Square Garden Entertainment Corp
 MSGS	Madison Square Garden Sports Corp
 MSI	Motorola Solutions
 MSM	Msc Industrial Direct Company
-MSP	Datto Holding Corp
 MT	Arcelormittal ADR
 MTA.U	Metals Acquisition Corp [Mtal.U]
 MTA.W	Metals Acquisition Corp WT [Mtal/W]
 MTAL	Metals Acquisition Corp Cl A
 MTB	M&T Bank Corp
+MTB-H	M&T Bank Corp Perpetual Rate
 MTCN	Arcelormittal 5.50% Mandatorily
 MTD	Mettler-Toledo International
 MTDR	Matador Resources Company
 MTG	Mgic Investment Corp
 MTH	Meritage Corp
-MTL	Mechel Oao ADR
-MTL.P	Mechel Pao [Mtl/P]
 MTN	Vail Resorts
-MTOR	Meritor Inc
 MTR	Mesa Royalty Trust
 MTRN	Materion Corp
 MTV.U	Motive Capital Corp II [Mtvc.U]
+MTV.W	Motive Capital Corp II [Mtvc/W]
+MTVC	Motive Capital Corp II
 MTW	Manitowoc Company
 MTX	Minerals Technologies Inc
 MTZ	Mastec Inc
@@ -2292,11 +2226,9 @@ MWA	Mueller Water Products
 MX	Magnachip Semiconductor Corp
 MXE	Mexico Equity and
 MXF	Mexico Fund
-MYC	Blackrock Muniyield California Fund
 MYD	Blackrock Muniyield Fund
 MYE	Myers Industries
 MYI	Blackrock Muniyield Quality Fund III
-MYJ	Blackrock Muniyield New Jersey Fund
 MYN	Blackrock Muniyield New York Quality Fund
 MYOV	Myovant Sciences Ltd
 MYTE	Myt Netherlands Parent B.V. ADR
@@ -2315,20 +2247,19 @@ NC	Nacco Industries
 NCA	Nuveen California Muni Value Fund
 NCLH	Norwegian Cruise Ord
 NCR	NCR Corp
-NCV	Virtus Allianzgi Convertible & Income Fund
+NCV	Virtus Convertible & Income Fund
 NCV-A	Allianzgi Conv Income Fd [Ncv/Pa]
-NCZ	Virtus Allianzgi Convertible & Income Fund II
+NCZ	Virtus Convertible & Income Fund II
 NCZ-A	Allianzgi Conv Income Fd II [Ncz/Pa]
 NDMO	Nuveen Dynamic Municipal Opportunities Fund Comm
 NDP	Tortoise Energy Independence F
 NE	Noble Corp Plc
 NEA	Nuveen Insured Tax-Free Advantage Fund
 NEE	Nextera Energy
-NEE-K	Nextera Energy Capital Hlds Inc [Nee/Pk]
 NEE-N	Nextera Energy Capital Hlds Inc [Nee/Pn]
-NEE-O	Nextera Energy Inc 4.872% Corporate Units
 NEE-P	Nextera Energy Inc
 NEE-Q	Nextera Energy Inc
+NEE-R	Nextera Energy Inc
 NEM	Newmont Mining Corp
 NEP	Nextera Energy Partners LP
 NET	Cloudflare Inc Cl A
@@ -2337,14 +2268,10 @@ NET.W	Nabors Energy Transition Corp WT [Netc/W]
 NETC	Nabors Energy Transition Corp Cl A
 NETI	Eneti Inc
 NEU	Newmarket Corp
-NEV	Nuveen Enhanced Muni Value Fund
-NEW	Puxin Ltd ADR
 NEWR	New Relic Inc
 NEX	Nextier Oilfield Solutions Inc
 NEXA	Nexa Resources S.A.
 NFG	National Fuel Gas Company
-NFH	New Frontier Health Corp
-NFH.W	New Frontier Health Corp WT
 NFJ	Virtus Dividend Interest & Premium Strategy
 NFN.U	Infinite Acquisition Corp [Nfnt.U]
 NFN.W	Infinite Acquisition Corp WT [Nfnt/W]
@@ -2365,8 +2292,9 @@ NGVT	Ingevity Corp
 NHI	National Health Investors
 NI	NiSource Inc
 NI-B	NiSource Inc [Ni/Pb]
+NIC	Nicolet Bankshares Inc
 NID	Nuveen Intermediate Duration M
-NIE	Virtus Allianzgi Equity & Convertible Income
+NIE	Virtus Equity & Convertible Income Fund
 NIM	Nuveen Maturities Fund
 NIMC	NiSource Inc
 NINE	Nine Energy Service Inc
@@ -2403,18 +2331,19 @@ NNY	Nuveen New York Muni Value Fund
 NOA	North American Construction Group Ltd
 NOAH	Noah Holdings Ltd ADR
 NOC	Northrop Grumman Corp
+NOG	Northern Oil and Gas
 NOK	Nokia Corp ADR
 NOM	Nuveen Missouri Premium Fund
 NOMD	Nomad Foods Ltd
+NOT.W	Fiscalnote Hldgs Inc WT [Note.W]
+NOTE	Fiscalnote Hldgs Inc
 NOV	Nov Inc
-NOVA	Sunnova Energy International Inc
+NOVA	Sunnova Energy International
 NOW	Servicenow Inc
-NP	Neenah Paper
 NPCT	Nuveen Core Plus Impact Fund
 NPFD	Nuveen Variable Rate Preferred & Income Fund
 NPK	National Presto Industries
 NPO	Enpro Industries
-NPTN	Neophotonics Corp
 NPV	Nuveen Virginia Premium Fund
 NQP	Nuveen Pennsylvania Investment
 NR	Newpark Resources
@@ -2423,16 +2352,12 @@ NRDY	Nerdy Inc
 NRE-A	Nexpoint Real Estate Finance [Nref/Pa]
 NREF	Nexpoint Real Estate Finance Inc
 NRG	NRG Energy
+NRGV	Energy Vault Hldgs Inc
 NRGX	Neurologix Inc
 NRK	Nuveen Insured New York Tax-Free
 NRP	Natural Resource Partners LP
 NRT	North European Oil Royality Trust
 NRUC	National Rural Utilities Coop Finance Corp 5.500
-NRZ	New Residential Investment Corp
-NRZ-A	New Residential Invt Corp [Nrz/Pa]
-NRZ-B	New Residential Invt Corp [Nrz/Pb]
-NRZ-C	New Residential Invt Corp [Nrz/Pc]
-NRZ-D	New Residential Investment Corp
 NS	Nustar Energy LP
 NS-A	Nustar Energy LP [Ns/Pa]
 NS-B	Nustar Energy LP [Ns/Pb]
@@ -2442,7 +2367,6 @@ NSA-A	National Storage Affiliates TR [Nsa/Pa]
 NSC	Norfolk Southern Corp
 NSL	Nuveen Senior
 NSP	Insperity Inc
-NSR	Nomad Royalty Ltd
 NSS	Nustar Logistics LP
 NST.D	Northern Star Invt Corp IV [Nstd.U]
 NST.S	Northern Star Invt Corp III [Nstc.U]
@@ -2457,7 +2381,6 @@ NTB	Bank of Butterfield Ltd
 NTCO	Natura &Co Holding S.A. ADR
 NTEST.I	
 NTG	Tortoise MLP Fund
-NTP	Nam Tai Electronics
 NTR	Nutrien Ltd
 NTST	Netstreit Corp
 NTZ	Natuzzi S.P.A. ADR
@@ -2484,13 +2407,11 @@ NX	Quanex Building Products Corp
 NXC	Nuveen California Tax-Free Income
 NXD-A	Nexpoint Diversified Re Trust Pfd
 NXDT	Nexpoint Diversified Real Estate Trust
+NXE	Nexgen Energy Ltd
 NXJ	Nuveen New Jersey Divadv Fund
 NXN	Nuveen Insured New York Tax-Free
 NXP	Nuveen Tax Free Income Portfolio
 NXRT	Nexpoint Residential Trust Inc
-NXU	Novus Capital Corp II Cl A
-NXU.U	Novus Capital Corp II Units
-NXU.W	Novus Capital Corp II WT
 NYC	New York City REIT Inc Cl A
 NYC-A	New York Community Bancorp Inc [Nycb/Pa]
 NYC-U	New York Cmnty Cap TR V [Nycb/Pu]
@@ -2498,21 +2419,16 @@ NYCB	New York Community Bancorp
 NYT	New York Times Company
 NZF	Nuveen Divadv Fund 3
 O	Realty Income Corp
-OAC.S	Oaktree Acquisition Corp II Units [Oacb.U]
-OAC.Z	Oaktree Acquisition Corp II WT [Oacb/W]
-OACB	Oaktree Acquisition Corp II Cl A
 OAK-A	Oaktree Cap Group Llc [Oak/Pa]
 OAK-B	Oaktree Cap Group Llc [Oak/Pb]
 OC	Owens Corning Inc
-OCA	Omnichannel Acquisition Corp Cl A
-OCA.U	Omnichannel Acquisition Corp
-OCA.W	Omnichannel Acquisition Corp WT
 OCFT	Oneconnect Financial Technology Co. Ltd America
 OCN	Ocwen Financial Corp
 ODC	Oil-Dri Corp of America
+ODV	Osisko Dev Corp
 OEC	Orion Engineered Carbons S.A R
 OFC	Corporate Office Properties
-OFG	OFG Bancorp
+OFG	Ofg Bancorp
 OG	Onion Global Ltd ADR
 OGE	Oge Energy Corp
 OGN	Organon & CO
@@ -2529,15 +2445,14 @@ OLP	One Liberty Properties
 OMC	Omnicom Group Inc
 OMF	Onemain Holdings Inc
 OMI	Owens & Minor
-ONE	Onesmart International Education Group Ltd A ADR
 ONL	Orion Office REIT Inc
 ONON	On Holding Ag Cl A
 ONTF	On24 Inc
 ONTO	Onto Innovation Inc
 OOMA	Ooma Inc
-OPA	Magnum Opus Acquisition Ltd Cl A
-OPA.U	Offerpad Solutions Inc U [Opad.U]
-OPA.W	Offerpad Solutions Inc WT [Opad.W]
+OPA	Magnum Opus Acquisition Cl A
+OPA.T	Offerpad Solutions WT [Opad.W]
+OPA.W	Magnum Opus Acquisition WT [Opa.W]
 OPAD	Offerpad Solutions Inc
 OPF.W	Oppfi Inc [Opfi/W]
 OPFI	Oppfi Inc
@@ -2567,13 +2482,14 @@ OUT	Outfront Media Inc
 OVV	Ovintiv Inc
 OWL	Blue Owl Capital Inc
 OWL.T	Owlet Inc WT [Owlt/Ws]
-OWL.W	Altimar Acquisition Corp I WT [Atac/W]
 OWLT	Owlet Inc
 OXM	Oxford Industries
 OXY	Occidental Petroleum Corp
 OXY.W	Occidental Petroleum Corp WT [Oxy/W/I]
 PAC	Grupo Aeroportuario Del Pacifico ADR
 PAC.U	Proof Acquisition Corp I [Paci.U]
+PAC.W	Proof Acquisition Corp I WT [Paci/W]
+PACI	Proof Acquisition Corp I Cl A
 PACK	Ranpak Holdings Corp
 PAG	Penske Automotive Group
 PAGS	Pagseguro Digital Ltd Cl A
@@ -2582,11 +2498,11 @@ PAM	Pampa Energia S.A. ADR
 PAR	Par Technology Corp
 PARR	Par Petroleum Corp
 PATH	Uipath Inc Cl A
+PAXS	Pimco Access Income Fund
 PAY	Paymentus Holdings Inc Cl A
 PAYC	Paycom Software Inc
 PB	Prosperity Bancshares
 PBA	Pembina Pipeline Cor
-PBC	Prospect Capital Corp 6.875% Notes Due 20
 PBF	PBF Energy Inc
 PBFX	PBF Logistics LP
 PBH	Prestige Brand Holdings
@@ -2628,11 +2544,14 @@ PEI-C	Pennsylvania Rl Estate Invt TR [Pei/Pc]
 PEI-D	Pennsylvania Rl Estate Invt TR [Pei/Pd]
 PEN	Penumbra Inc
 PEO	Adams Natural Resources Fund Inc
+PER.W	Perfect Corp WT [Perf.Ws]
+PERF	Perfect Corp Cl A
 PFD	Flaherty & Crumrine Preferred Inc
 PFE	Pfizer Inc
 PFGC	Performance Food Group Company
 PFH	Prudential Financial Inc 4.125% Junior
 PFL	Pimco Income Strategy Fund
+PFLT	Pennantpark Fltng Rt
 PFN	Pimco Income Strategy Fund II
 PFO	Flaherty & Crumrine Preferred Fund
 PFS	Provident Financial Services
@@ -2641,6 +2560,7 @@ PG	Procter & Gamble Company
 PGP	Pimco Global Stocksplus & Income
 PGR	Progressive Corp
 PGRE	Paramount Group Inc
+PGRU	Propertyguru Group Ltd
 PGS.U	Pegasus Digital Acquisition Corp [Pgss.U]
 PGS.W	Pegasus Digital Acquisition Corp WT [Pgss/W]
 PGSS	Pegasus Digital Mobility Acquisition Corp Cl A
@@ -2678,10 +2598,9 @@ PK	Park Hotels & Resorts Inc
 PKE	Park Electrochemical Corp
 PKG	Packaging Corp of America
 PKI	Perkinelmer
-PKX	Posco ADR
+PKX	Posco Holdings Inc ADR
 PL	Planet Labs Pbc
 PL.W	Planet Labs Pbc WT
-PLAN	Anaplan Inc
 PLD	Prologis Inc
 PLNT	Planet Fitness
 PLOW	Douglas Dynamics
@@ -2705,21 +2624,24 @@ PNC-P	PNC Financial Services Group [Pnc/Pp]
 PNF	Pimco New York Muni
 PNI	Pimco New York Muni II
 PNM	PNM Resources Inc
+PNNT	Pennantpark Investme
 PNR	Pentair Ltd
 PNT.U	Pontem Corp Unit [Pntm.U]
 PNT.W	Pontem Corp WT [Pntm/W]
 PNTM	Pontem Corp Cl A
 PNW	Pinnacle West Capital Corp
-POLY	Plantronics
 PON.U	Angel Pond Holdings Corp [Pond.U]
 PON.W	Angel Pond Holdings Corp WT [Pond/W]
 POND	Angel Pond Holdings Corp Cl A
 POR	Portland General Electric Company
 POR.U	Southport Acquisition Corp [Port.U]
+POR.W	Southport Acquisition Corp WT [Port/W]
+PORT	Southport Acquisition Corp Cl A
 POST	Post Holdings Inc
 PPG	PPG Industries
 PPL	PPL Corp
 PPT	Putnam Premier Income Trust
+PR	Permian Resources Corp
 PRA	Pro-Assurance Corp
 PRB.U	Parabellum Acquisition Corp [Prbm.U]
 PRB.W	Parabellum Acquisition Corp WT [Prbm/W]
@@ -2727,6 +2649,7 @@ PRBM	Parabellum Acquisition Corp Cl A
 PRE-J	Partnerre Ltd
 PRG	Prog Hldgs Inc
 PRGO	Perrigo Company
+PRH	Prudential Financial 5.950% Notes
 PRI	Primerica Inc
 PRI-D	Priority Income Fund Inc [Prif/Pd]
 PRI-F	Priority Income Fund Inc [Prif/Pf]
@@ -2735,22 +2658,19 @@ PRI-H	Priority Income Fund Inc
 PRI-I	Priority Income Fd
 PRI-J	Priority Income Fund Inc
 PRI-K	Priority Income Fund Inc
+PRI-L	Priority Income Fund Inc [Prif.Pl]
 PRLB	Proto Labs Inc
 PRM	Perimeter Solutions Sa
 PRMW	Primo Water Corp
 PRO	Pros Holdings
 PRP.S	CC Neuberger Principal Holdings III [Prpc.U]
 PRP.T	CC Neuberger Principal Holdings III WT [Prpc/W]
-PRP.U	CC Neuberger Principal Holdings II [Prpb.U]
-PRP.W	CC Neuberger Principal Holdings II WT [Prpb/W]
-PRPB	CC Neuberger Principal Holdings II Cl A
 PRPC	CC Neuberger Principal Holdings III Cl A
 PRS	Prudential Financial Inc 5.625% Junior
 PRT	Permrock Royalty Trust Trust Units
 PRTY	Party City Holdco Inc
 PRU	Prudential Financial Inc
 PSA	Public Storage
-PSA-E	Public Storage [Psa/Pe]
 PSA-F	Public Storage [Psa/Pf]
 PSA-G	Public Storage [Psa/Pg]
 PSA-H	Public Storage [Psa/Ph]
@@ -2764,7 +2684,7 @@ PSA-O	Public Storage [Psa/Po]
 PSA-P	Public Storage
 PSA-Q	Public Storage
 PSA-R	Public Storage
-PSB	Business Parks
+PSA-S	Public Storage
 PSB-X	PS Business Parks Inc Calif [Psb/Px]
 PSB-Y	PS Business Parks Inc Calif [Psb/Py]
 PSB-Z	PS Business Parks Inc Calif [Psb/Pz]
@@ -2777,23 +2697,16 @@ PSO	Pearson Plc ADR
 PSP.U	Post Hldgs Partnering Corp [Pspc.U]
 PSP.W	Post Holdings Partnering Corp WT [Pspc/W]
 PSPC	Post Holdings Partnering Corp Series A
-PST.W	Pershing Square Tontine Hldgs WT [Psth/W]
 PSTG	Pure Storage Inc
-PSTH	Pershing Square Tontine Holdings
 PSTL	Postal Realty Trust Cl A
 PSX	Phillips 66
-PSXP	Phillips 66 Partners LP
 PTA	Cohen & Steers Tax-Advantaged Preferred Securiti
-PTR	Petrochina Company Ltd ADR
 PTY	Pimco Corporate Opportunity Fund
 PUK	Prudential Public Ltd Company ADR
-PUK-A	Prudential [Puk/Pa]
-PUK.P	Prudential Plc ADR [Puk/I]
 PUMP	Propetro Holding Corp
 PV	Primavera Capital Acquisition Corp Cl A
 PV.U	Primavera Capital Acquisition Corp
 PV.W	Primavera Capital Acquisition Corp WT
-PVG	Pretium Res Inc
 PVH	Phillips-Van Heusen Corp
 PVL	Permianville Royalty Trust
 PWR	Quanta Services
@@ -2805,11 +2718,15 @@ PYS	Pplus Trust
 PYT	Pplus Trust
 PZC	Pimco California Muni Income Fund III
 PZN	Pzena Investment Management Inc
+QBT.W	Dwave Quantum Inc WT [Qbts/W]
+QBTS	D-Wave Quantum Inc
 QD	Qudian Inc ADR
 QFT.U	Quantum Fintech Acquisition Corp [Qfta.U]
 QFT.W	Quantum Fintech Acquisition Corp WT [Qfta/W]
 QFTA	Quantum Fintech Acquisition Corp
 QGEN	Qiagen N.V.
+QNG.W	Quanergy Systems Inc WT [Qngy.W]
+QNGY	Quanergy Systems Inc
 QS	Quantumscape Corp
 QSR	Restaurant Brands International
 QTWO	Q2 Holdings Inc
@@ -2824,12 +2741,13 @@ RACE	Ferrari N.V.
 RAD	Rite Aid Corp
 RAMP	Liveramp Holdings Inc
 RBA	Ritchie Bros. Auctioneers Inc
-RBA.U	Redball Acquisition Corp [Rbac.U]
-RBA.W	Redball Acquisition Corp [Rbac/W]
-RBAC	Redball Acquisition Corp Cl A
+RBC	RBC Bearings Inc
+RBCP	RBC Bearings Inc
 RBLX	Roblox Corp Cl A
 RBO.W	Vicarious Surgical Inc WT [Rbot.W]
 RBOT	Vicarious Surgical Inc
+RBT	Rubicon Technologies Cl A
+RBT.W	Rubicon Technologies WT
 RC	Ready Capital Corp
 RC-C	Ready Capital Corp 6.25% Series C
 RC-E	Ready Capital Corp
@@ -2844,8 +2762,6 @@ RCL	Royal Caribbean Cruises Ltd
 RCS	Rcm Strategic Global Government Fund
 RCUS	Arcus Biosciences Inc
 RDN	Radian Group Inc
-RDS.A	Royal Dutch Shell Cl A ADR
-RDS.B	Royal Dutch Shell Cl B ADR
 RDW	Redwire Corp
 RDW.W	Redwire Corp Redeemable WT
 RDY	Dr. Reddy's Laboratories Ltd ADR
@@ -2874,31 +2790,43 @@ RGA	Reinsurance Group of America Inc
 RGR	Sturm Ruger & Company
 RGS	Regis Corp
 RGT	Royce Global Value Trust Inc
-RH	Restoration Hardware Holdings
+RH	Rh Common Stock
 RHI	Robert Half International Inc
 RHP	Ryman Hospitality Properties REIT
 RIG	Transocean Inc
 RIO	Rio Tinto Plc ADR
+RIT-A	Rithm Capital Corp [Ritm/Pa]
+RIT-B	Rithm Capital Corp [Ritm/Pb]
+RIT-C	Rithm Capital Corp [Ritm/Pc]
+RIT-D	Rithm Capital Corp [Ritm/Pd]
+RITM	Rithm Capital Corp
 RIV	Rivernorth Opportunities Fund
+RIV-A	Rivernorth Opportunities Fund Inc
+RIV-R	Rivernorth Opportunities WI [Rivrw]
 RJA.U	Jackson Acquisition Company [Rjac.U]
+RJA.W	Jackson Acquisition Company WT [Rjac/W]
+RJAC	Jackson Acquisition Company Cl A
 RJF	Raymond James Financial
+RJF-A	Raymond James Financial 6.375%
+RJF-B	Raymond James Financial 6.375%
 RKL.W	Rockley Photonics Hldgs WT [Rkly/W]
-RKLY	Rockley Photonics Holdings Limited
+RKLY	Rockley Photonics Holdings Ltd
 RKT	Rocket Companies Inc Cl A
 RKT.U	Rocket Internet Growth Opp [Rkta.U]
 RKT.W	Rocket Internet Growth Opp [Rkta/W]
 RKTA	Rocket Internet Growth Opportunities Cl A
 RL	Ralph Lauren Corp
-RLGY	Realogy Holdings Corp
 RLI	Rli Corp
 RLJ	Rlj Lodging Trust
 RLJ-A	Rlj Lodging TR [Rlj/Pa]
+RLTY	Cohen Real Estate Opt and Income Fund
 RLX	Rlx Technology Inc ADR
 RM	Regional Managment Corp
 RMAX	Re/Max Holdings Inc
 RMD	Resmed Inc
 RMI	Rivernorth Opportunistic Municipal Income Fund
 RMM	Rivernorth Managed Duration Municipal Income Fun
+RMMZ	Rivernorth Managed Duration Municipal Income Fun
 RMO	Romeo Power Inc
 RMP.P	Rivernorth Marketplace Lending Corp [Rmpl/P]
 RMT	Royce Micro-Cap Trust
@@ -2926,39 +2854,37 @@ RRA.U	Rigel Resource Acquisition Corp [Rrac.U]
 RRA.W	Rigel Resource Acquisition Corp WT [Rrac/W]
 RRAC	Rigel Resource Acquisition Corp Cl A
 RRC	Range Resources Corp
-RRD	Donnelley R.R. & Sons Company
 RRX	Regal Rexnord Corp
 RS	Reliance Steel & Aluminum Company
 RSF	Rivernorth Marketplace Lending Corp
 RSG	Republic Services
 RSI	Rush Street Interactive Inc
 RSKD	Riskified Ltd Cl A
+RTO	Rentokil Initial Plc ADR
 RTX	Raytheon Technologies Corp
-RVI	Retail Value Inc
 RVLV	Revolve Group Inc
 RVT	Royce Value Trust
 RWT	Redwood Trust
 RY	Royal Bank of Canada
 RY-T	Royal Bank of Canada [Ry/Pt]
 RYAM	Rayonier Advanced Materials Inc
-RYAN	Ryan Specialty Group Holdings Inc Cl A
-RYB	Ryb Education Inc Aps ADR
+RYAN	Ryan Specialty Hldgs Inc
 RYI	Ryerson Holding Corp
 RYN	Rayonier Inc REIT
 RZA	Reinsurance Group of America
 RZB	Reinsurance Group of America
+RZC	Reinsurance Group of America Incorporated 7.125
 S	Sentinelone Inc Cl A
 SA	Seabridge Gold
 SAFE	Safehold Inc
 SAH	Sonic Automotive
 SAIC	Science Applications International
-SAIL	Sailpoint Technologies Holdings Inc
-SAK	Saratoga Investment Corp 7.25% Notes Due 2025
 SAM	Boston Beer Company
 SAN	Banco Santander ADR
 SAND	Sandstorm Gold Ltd
 SAP	SAP Ag ADR
 SAR	Saratoga Investment Corp
+SAT	Saratoga Investment Corp 6.00%
 SAVE	Spirit Airlines Inc
 SB	Safe Bulkers Inc
 SB-C	Safe Bulkers Inc [Sb/Pc]
@@ -2973,14 +2899,13 @@ SBOW	Silverbow Resources Inc
 SBR	Sabine Royalty Trust
 SBS	Cia DE Saneamento Basico Do Estado ADR
 SBSW	Sibanye Gold Ltd ADR
-SC	Santander Consumer USA Holdings
 SCCO	Southern Copper Corp
 SCD	Lmp Capital and Income Fund Inc
 SCE-G	Sce Trust II [Sce/Pg]
 SCE-H	Sce TR III [Sce/Ph]
 SCE-J	Sce TR IV [Sce/Pj]
 SCE-K	Sce Trust V [Sce/Pk]
-SCE-L	Sce Trust VI [Sce/Pl]
+SCE-L	Sce Trust Vi [Sce/Pl]
 SCH-D	Charles Schwab Corp [Schw/Pd]
 SCH-J	Charles Schwab Corp [Schw/Pj]
 SCHW	The Charles Schwab Corp
@@ -2990,23 +2915,24 @@ SCM	Stellus Capital Investment Cor
 SCS	Steelcase Inc
 SCU	Sculptor Capital Management Inc
 SCU.U	Sculptor Acquisition Corp I [Scua.U]
-SCV.U	Scvx Corp [Scvx.U]
-SCV.W	Scvx Corp WT [Scvx/W]
-SCVX	Scvx Corp Cl A
+SCU.W	Sculptor Acquisition Corp I WT [Scua/W]
+SCUA	Sculptor Acquisition Corp I Cl A
 SCX	L.S. Starrett Company
 SD	Sandridge Energy Inc
 SDHY	PGIM Short Duration High Yield Opportunities Fun
+SDRL	Seadrill 2021 Ltd
 SE	Sea Ltd ADR
-SEA.U	Sports Entertainment Acquisition [Seah.U]
-SEA.W	Sports Entertainment Acquisition [Seah/W]
-SEAH	Sports Entertainment Acquisition Cl A
+SEA-A	Teekay Lng Partners LP [Seal.Pa]
+SEA-B	Teekay Lng Partners LP [Seal.Pb]
 SEAS	Seaworld Entertainment Inc Company
 SED.U	Sdcl Edge Acquisition Corp [Seda.U]
 SED.W	Sdcl Edge Acquisition Corp WT [Seda/W]
-SEDA	Sdcl Edge Acquisition Corporation Cl A
+SEDA	Sdcl Edge Acquisition Corp Cl A
 SEE	Sealed Air Corp
 SEM	Select Medical Holdings Corp
 SEMR	Semrush Holdings Inc Cl A
+SES	Ses Ai Corp
+SES.W	Ses Ai Corp WT
 SF	Stifel Financial Corp
 SF-B	Stifel Financial Corp [Sf/Pb]
 SF-C	Stifel Financial Corp [Sf/Pc]
@@ -3015,14 +2941,17 @@ SFB	Stifel Financial Corp 5.20% Senior Notes
 SFBS	Servisfirst Bancs
 SFE	Safeguard Scientifics
 SFL	Ship Finance International
-SFUN	Fang Holdings Ltd ADR
 SG	Sweetgreen Inc Cl A
 SGFY	Signify Health Inc Cl A
+SGH.W	Super Group Sghc Ltd WT [Sghc/W]
+SGHC	Super Group [Sghc] Ltd
 SGU	Star Gas Partners LP
 SHA.U	Spree Acquisition Corp [Shap.U]
+SHA.W	Spree Acquisition Corp WT [Shap/W]
 SHAK	Shake Shack Inc
+SHAP	Spree Acquisition Corp 1 Cl A
+SHEL	Royal Dutch Shell Plc ADR
 SHG	Shinhan Financial Group Co. Ltd ADR
-SHI	Sinopec Shangai Petrochemical Company Ltd ADR
 SHLX	Shell Midstream Partners LP
 SHO	Sunstone Hotel Investors
 SHO-H	Sunstone Hotel Investors Inc
@@ -3036,6 +2965,7 @@ SI-A	Silvergate Capital Corp
 SID	Companhia Siderurgica Nacional ADR
 SIG	Signet Jewelers Ltd
 SII	Sprott Inc
+SIRE	Sisecam Resources LP
 SIT-A	Site Centers Corp 6.375% Cl A [Sitc/Pa]
 SITC	Site Centers Corp
 SITE	Siteone Landscape Supply
@@ -3063,6 +2993,7 @@ SLCA	U.S. Silica Holdings Inc
 SLF	Sun Life Financial Inc
 SLG	SL Green Realty Corp
 SLG-I	SL Green Rlty Corp [Slg/Pi]
+SLGN	Silgan Holdings
 SLQT	Selectquote Inc
 SLVM	Sylvamo Corp
 SM	Sm Energy Company
@@ -3071,20 +3002,17 @@ SMFG	Sumitomo Mitsui Financial Group Inc ADR
 SMG	Scotts Miracle-Gro Company
 SMHI	Seacor Marine Holdings Inc
 SMLP	Summit Midstream Partners LP
-SMM	Salient Midstream & MLP Fund
 SMP	Standard Motor Products
+SMR	Nuscale Power Corp
+SMR.W	Nuscale Power Corp WT
 SMRT	Smartrent Inc
 SMWB	Similarweb Ltd
 SNA	Snap-On Inc
 SNAP	Snap Inc
 SNDA	Sonida Senior Living Inc
 SNDR	Schneider National Inc
-SNI.U	Supernova Partners Acquisition II [Snii.U]
-SNI.W	Supernova Partners Acquisition II [Snii/W]
-SNII	Supernova Partners Acquisition Company II Ltd C
 SNN	Smith & Nephew Snats ADR
 SNOW	Snowflake Inc Cl A
-SNP	China Petroleum & Chemical Corp ADR
 SNV	Synovus Financial Corp
 SNV-D	Synovus Financial Corp [Snv/Pd]
 SNV-E	Synovus Finl Corp [Snv/Pe]
@@ -3095,19 +3023,15 @@ SOJC	Southern Company Series 2017B 5.25% Junior
 SOJD	Southern Company Series 2020A 4.95% Junior
 SOJE	Southern Company Series 2020C 4.20%
 SOL	Renesola Ltd ADR
-SOLN	Southern Company
 SON	Sonoco Products Company
 SONX	Sonendo Inc
 SONY	Sony Group Corp ADR
 SOR	Source Capital
 SOS	Sos Ltd ADR
-SPA.U	Spartan Acquisition Corp III [Spaq.U]
-SPA.W	Spartan Acquisition Corp III WT [Spaq/W]
-SPAQ	Spartan Acquisition Corp III Cl A
 SPB	Spectrum Brands Holdings Inc
 SPCE	Virgin Galactic Holdings Inc
 SPE	Special Opportunities Fund Inc
-SPE.P	Special Opportunities Fund Inc [Spe/I/R]
+SPE-C	Special Opportunities Fund Inc 2.75%
 SPG	Simon Property Group
 SPG-J	Simon Ppty Group Inc [Spg/Pj]
 SPG.U	Simon Ppty Group Acquisition Hldgs [Spgs.U]
@@ -3125,7 +3049,7 @@ SPOT	Spotify Technology S.A.
 SPR	Spirit Aerosystems Holdings
 SPXC	SPX Corp
 SPXX	Nuveen Equity Premium and Growth Fund
-SQ	Square
+SQ	Block Inc
 SQM	Sociedad Quimica Y Minera S.A. ADR
 SQNS	Sequans Communications S A ADR
 SQSP	Squarespace Inc Cl A
@@ -3145,6 +3069,8 @@ SRT	Startek Inc
 SRV	The Cushing MLP Total Return Fund
 SSD	Simpson Manufacturing Company
 SSL	Sasol Ltd ADR
+SST	System1 Inc
+SST.W	System1 Inc WT
 SSTK	Shutterstock Inc
 SSU	Signa Sports United N.V.
 SSU.W	Signa Sports United N.V. WT
@@ -3156,21 +3082,25 @@ STAG	Stag Industrial Inc
 STAR	Istar Financial Inc
 STC	Stewart Information Services Corp
 STE	Steris Corp
-STE.U	ST Energy Transition I Ltd Unit [1 Cl A & 1/2 WT
+STE.U	ST Energy Transition I [Ste.U]
+STE.W	ST Energy Transition I [Ste/W]
 STEM	Stem Inc
+STET	ST Energy Transition I Cl A
+STEW	Srh Total Return Fund Inc
 STG	Sunlands Online Education Group ADR
 STK	Columbia Seligman Premium Technology
-STL	Sterling Bancorp
-STL-A	Sterling Bancorp D [Stl/Pa]
 STLA	Stellantis N.V.
 STM	Stmicroelectronics N.V. ADR
 STN	Stantec Inc
 STNG	Scorpio Tankers Inc
 STON	Stonemor Partners LP
 STOR	Store Capital Corp
+STR	Sitio Royalties Corp
+STR.T	Starry Group Holdings WT [Stry/W]
 STR.U	Supernova Partners Acquisition III [Stre.U]
 STR.W	Supernova Partners Acquisition III [Stre/W]
 STRE	Supernova Partners Acquisition III
+STRY	Starry Group Holdings Inc Cl A
 STT	State Street Corp
 STT-D	State Street Corp [Stt/Pd]
 STT-G	State Street Corp [Stt/Pg]
@@ -3193,7 +3123,6 @@ SUZ	Suzano Papel E Celul ADR
 SWCH	Switch Inc
 SWI	Solarwinds Corp
 SWK	Stanley Black & Decker Inc
-SWM	Schweitzer-Mauduit International
 SWN	Southwestern Energy Company
 SWT	Stanley Black & Decker Inc
 SWX	Southwest Gas Corp
@@ -3210,9 +3139,6 @@ T	AT&T Inc
 T-A	AT&T Inc 5% Prf Perpetual USD 25 1/1000Th Int Se
 T-C	AT&T Inc 4.75% Prf Perpetual USD 25 1/1000Th Int
 TAC	Transalta Corp
-TAC.U	Trepont Acquisition Corp I [Taca.U]
-TAC.W	Trepont Acquisition Corp WT [Taca/W]
-TACA	Trepont Acquisition Corp I Cl A
 TAK	Takeda Pharmaceutical Co. Ltd ADR
 TAL	Tal Education Group ADR
 TALO	Talos Energy Inc
@@ -3225,6 +3151,8 @@ TBI	Trueblue Inc
 TCI	Transcontinental Realty Investors
 TCN	Tricon Residential Inc
 TCO.U	Trajectory Alpha Acquisition [Tcoa.U]
+TCO.W	Trajectory Alpha Acquisition WT [Tcoa/W]
+TCOA	Trajectory Alpha Acquisition Corp Cl A
 TCS	The Container Store Group Inc
 TD	Toronto Dominion Bank
 TDC	Teradata Corp
@@ -3253,17 +3181,19 @@ TFC-I	Truist Financial Corp [Tfc/Pi]
 TFC-O	Truist Financial Corp [Tfc/Po]
 TFC-R	Truist Financial Corp [Tfc/Pr]
 TFII	Tfi International Inc
-TFSA	Terra Income Fund VI 7.00% Notes Due 2026
+TFPM	Triple Flag Precious Metals Corp
+TFSA	Terra Income Fund 6 Llc
 TFX	Teleflex Inc
 TG	Tredegar Corp
 TGH	Textainer Group Holdings
 TGH-A	Textainer Group Holdings Ltd
 TGH-B	Textainer Group Holdings Ltd
 TGI	Triumph Group
+TGLS	Tecnoglass Inc
 TGNA	Tegna Inc
-TGP	Teekay Lng Partners LP
-TGP-A	Teekay Lng Partners LP [Tgp/Pa]
-TGP-B	Teekay Lng Partners LP [Tgp/Pb]
+TGR	Kimbell Tiger Acquisition Corp Cl A
+TGR.U	Kimbell Tiger Acquisition Corp
+TGR.W	Kimbell Tiger Acquisition Corp WT
 TGS	Transportadora DE Gas Sa Ord B ADR
 TGT	Target Corp
 THC	Tenet Healthcare Corp
@@ -3310,7 +3240,6 @@ TOST	Toast Inc Cl A
 TPB	Turning Point Brands
 TPC	Tutor Perini Corp
 TPG.U	Tpg Pace Beneficial Fin Corp [Tpgy.U]
-TPG.W	Tpg Pace Beneficial Fin Corp WT [Tpgy/W]
 TPGY	Tpg Pace Beneficial Finance Corp Cl A
 TPH	Tri Pointe Homes Inc
 TPL	Texas Pacific Land Trust
@@ -3327,10 +3256,6 @@ TRC	Tejon Ranch Company
 TRC.U	Twin Ridge Cap Acquisition Corp [Trca.U]
 TRC.W	Twin Ridge Cap Acquisition Corp WT [Trca/W]
 TRCA	Twin Ridge Capital Acquisition Corp Cl A
-TRE.U	Trebia Acquisition Corp Cl A [Treb.U]
-TRE.W	Trebia Acquisition Corp WT [Treb/W]
-TREB	Trebia Acquisition Corp Cl A
-TREC	Trecora Resources
 TREX	Trex Company
 TRGP	Targa Resources
 TRI	Thomson Reuters Corp
@@ -3344,13 +3269,13 @@ TRP	Tc Energy Corp
 TRQ	Turquoise Hill Resources Ltd
 TRT-A	Triton Intl Ltd [Trtn/Pa]
 TRT-B	Triton Intl Ltd [Trtn/Pb]
-TRT-C	Triton Intl Ltd 7.375% [Trtn/Pc]
+TRT-C	Triton Intl Ltd [Trtn/Pc]
 TRT-D	Triton Intl Ltd [Trtn/Pd]
-TRT-E	Triton International Limited
+TRT-E	Triton Intl Ltd [Trtn/Pe]
 TRT-P	Tpg Re Finance Trust Inc 6.25% Ser C [Trtx/Pc]
-TRT.U	Tortoiseecofin Acquisition Corp III [Trtl.U]
-TRT.W	Tortoiseecofin Acquisition Corp III WT [Trtl/W
-TRTL	Tortoiseecofin Acquisition Corp III Cl A
+TRT.U	Tortoiseecofin Acquisition III [Trtl.U]
+TRT.W	Tortoiseecofin Acquisition III WT [Trtl/W]
+TRTL	Tortoiseecofin Acquisition III Cl A
 TRTN	Triton International Ltd
 TRTX	Tpg Re Finance Trust Inc
 TRU	Transunion
@@ -3359,7 +3284,7 @@ TS	Tenaris S.A. ADR
 TSE	Trinseo S.A.
 TSI	Tcw Strategic
 TSLX	Tpg Specialty Lending Inc
-TSM	Taiwan Semiconductor Manufacturing ADR
+TSM	Taiwan Semiconductor ADR
 TSN	Tyson Foods
 TSP.U	Tcw Special Purpose Acquisition [Tspq.U]
 TSP.W	Tcw Special Purpose Acquisition [Tspq/W]
@@ -3372,7 +3297,6 @@ TTI	Tetra Technologies
 TTM	Tata Motors Ltd ADR
 TTP	Tortoise Pipeline & Energy Fund
 TU	Telus Corp
-TUFN	Tufin Software Technologies Ltd
 TUP	Tupperware Corp
 TUYA	Tuya Inc ADR
 TV	Grupo Televisa S.A. ADR
@@ -3381,14 +3305,11 @@ TVE	Tennessee Valley Authority
 TWI	Titan International
 TWLO	Twilio
 TWN	Taiwan Fund
-TWN.I	Tailwind Two Acquisition Corp WT [Twnt/W]
 TWN.S	Tailwind Intl Acquisition Corp [Twni.U]
 TWN.T	Tailwind Intl Acquisition Corp WT [Twni/W]
-TWN.U	Tailwind Acquisition Corp [Twnd.U]
-TWN.W	Tailwind Acquisition Corp WT [Twnd/W]
+TWN.W	Tailwind Intl Acquisition Corp WT [Twnd/W]
 TWND	Tailwind Acquisition Corp Cl A
 TWNI	Tailwind International Acquisition Corp Cl A
-TWNT	Tailwind Two Acquisition Corp Cl A
 TWO	Two Harbors Invt Corp
 TWO-A	Two Harbors Invt Corp [Two/Pa]
 TWO-B	Two Harbors Invt Corp [Two/Pb]
@@ -3424,7 +3345,6 @@ UIS	Unisys Corp
 UL	Unilever Plc ADR
 UMC	United Microelectronics Corp ADR
 UMH	Umh Properties
-UMH-C	Umh Pptys Inc [Umh/Pc]
 UMH-D	Umh Pptys Inc [Umh/Pd]
 UNF	Unifirst Corp
 UNFI	United Nat Foods
@@ -3444,10 +3364,10 @@ USAC	USA Compression Partners LP
 USB	U.S. Bancorp
 USB-A	US Bancorp [Usb/Pa]
 USB-H	US Bancorp [Usb/Ph]
-USB-M	US Bancorp [Usb/Pm]
 USB-P	US Bancorp [Usb/Pp]
 USB-Q	US Bancorp [Usb/Pq]
 USB-R	US Bancorp [Usb/Pr]
+USB-S	U.S. Bancorp
 USDP	USD Partners LP
 USER	Usertesting Inc
 USFD	US Foods Holding
@@ -3475,18 +3395,15 @@ VAPO	Vapotherm Inc
 VATE	Innovate Corp
 VBF	Invesco Van Kampen Bond Fund
 VCIF	Vertical Capital Income Fund
-VCRA	Vocera Communications Inc
 VCV	Invesco California Value Muni Income Trust
-VCX.U	10X Cap Venture Acquisition Cor III [Vcxb.U]
-VEC	Vectrus Inc
+VCX.U	10X Cap Venture Acquisition III [Vcxb.U]
+VCX.W	10X Cap Venture Acquisition III WT [Vcxb/W]
+VCXB	10X Capital Venture Acquisition III Cl A
 VEEV	Veeva Systems Inc
 VEL	Velocity Financial Inc
 VET	Vermilion Energy Inc
 VFC	V.F. Corp
 VGI	Virtus Global Multi-Sector Inc
-VGI.U	Virgin Group Acquisition Corp II [Vgii.U]
-VGI.W	Virgin Group Acquisition Corp II [Vgii/W]
-VGII	Virgin Group Acquisition Corp II Cl A
 VGM	Invesco Trust For Investment Grade Municipals
 VGR	Vector Group Ltd
 VHC	Virnetx Holding Corp
@@ -3494,7 +3411,7 @@ VHI	Valhi Inc
 VIAO	Via Optronics Ag ADR
 VICI	Vici Properties Inc
 VIPS	Vipshop Holdings Ltd ADR
-VIST	Vista Oil & Gas S.A.B. DE C.V. ADR
+VIST	Vista Energy S.A.B. DE C.V. ADR
 VIV	Telecomunicacoes DE Sao Paulo ADR
 VKQ	Invesco Muni Trust
 VLD	Velo3D Inc
@@ -3511,7 +3428,6 @@ VMI	Valmont Industries
 VMO	Invesco Muni Opportunity Trust
 VMW	Vmware Inc
 VNCE	Vince Holding Corp
-VNE	Veoneer Inc
 VNO	Vornado Realty Trust
 VNO-L	Vornado Rlty TR [Vno/Pl]
 VNO-M	Vornado Rlty TR [Vno/Pm]
@@ -3522,13 +3438,9 @@ VNTR	Venator Materials Plc
 VOC	Voc Energy Trust
 VOY-B	VOYA Finl Inc [Voya/Pb]
 VOYA	VOYA Financial Inc
-VPC.U	Vpc Impact Acq Hldgs III Inc [Vpcc.U]
-VPC.W	Vpc Impact Acq Hldgs III WT [Vpcc/W]
-VPCC	Vpc Impact Acquisition Holdings III Inc Cl A
 VPG	Vishay Precision Group
 VPV	Invesco Pennsylvania Muni
 VRE	Veris Residential Inc
-VRS	Verso Corp
 VRT	Vertiv Holdings Llc.
 VRTV	Veritiv Corp
 VSCO	Victorias Secret & CO
@@ -3544,26 +3456,22 @@ VVI	Viad Corp
 VVNT	Vivint Smart Home Inc
 VVR	Invesco Senior Income Trust
 VVV	Valvoline Inc
+VVX	V2X Inc
 VYG.U	Vy Global Growth Unit 1 [Vygg.U]
-VYG.W	Vy Global Growth [Vygg/W]
 VYGG	Vy Global Growth Cl A
 VZ	Verizon Communications Inc
 VZIO	Vizio Holding Corp Cl A
 W	Wayfair Inc
 WAB	Wabtec Corp
 WAL	Western Alliance Bancorp
-WAL-A	Western Alliance Bancorporation Pfd
-WAR.U	Warrior Technologies Acquisition [Warr.U]
-WAR.W	Warrior Technologies Acquisition [Warr/W]
-WARR	Warrior Technologies Acquisition Cl A
+WAL-A	Western Alliance Bancorp Pfd
 WAT	Waters Corp
 WAV.U	Waverley Cap Acquisition Corp [Wavc.U]
 WAV.W	Waverley Cap Acquisition Corp WT [Wavc/W]
 WAVC	Waverley Capital Acquisition Corp 1 Cl A
-WBK	Westpac Banking Corp ADR
 WBS	Webster Financial Corp
 WBS-F	Webster Financial Corp [Wbs/Pf]
-WBT	Welbilt Inc
+WBS-G	Webster Financial Corp ADR
 WBX	Wallbox N.V. Cl A
 WBX.W	Wallbox N.V. WT
 WCC	Wesco International
@@ -3572,14 +3480,16 @@ WCN	Waste Connections Inc
 WD	Walker & Dunlop
 WDH	Waterdrop Inc ADR
 WDI	Western Asset Diversified Income Fund
+WDS	Woodside Energy Group Ltd
 WE	Wework Inc
 WE.W	Wework Inc WT
 WEA	Western Asset Bond Fund
 WEAV	Weave Communications Inc
 WEBR	Weber Inc Cl A
 WEC	Wisconsin Energy Corp
-WEI	Weidai Ltd ADR
+WEL	Integrated Wellness Acquisition Cl A
 WEL.U	Integrated Wellness Acquisition [Wel.U]
+WEL.W	Integrated Wellness Acquisition WT
 WELL	Welltower Inc
 WES	Western Midstream Partners LP
 WEX	Wex Inc
@@ -3603,9 +3513,10 @@ WIA	U.S. Treasury Inflation Prot Secs Fd
 WIT	Wipro Ltd ADR
 WIW	U.S Treasury Inflation Prot Secs Fd 2
 WK	Workiva Llc
-WLK	Westlake Chemical Corp
+WLK	Westlake Corp
 WLKP	Westlake Chemical Partners LP
-WLL	Whiting Petroleum Corp
+WLY	John Wiley Sons Cl A
+WLYB	John Wiley Sons Cl B
 WM	Waste Management
 WMB	Williams Companies
 WMC	Western Asset Mortgage Capital
@@ -3614,6 +3525,8 @@ WMS	Advanced Drainage Systems Inc
 WMT	Walmart Inc
 WNC	Wabash National Corp
 WNN.U	Andretti Acquisition Corp [Wnnr.U]
+WNN.W	Andretti Acquisition Corp WT [Wnnr/W]
+WNNR	Andretti Acquisition Corp Cl A
 WNS	Wns Ltd ADR
 WOLF	Wolfspeed Inc
 WOR	Worthington Industries
@@ -3649,7 +3562,6 @@ WST	West Pharmaceutical Services
 WTI	W&T Offshore
 WTM	White Mountains Insurance Group
 WTRG	Essential Utilities Inc
-WTRU	Aqua America Inc 6.00% Tangible Equity Units
 WTS	Watts Water Technologies
 WTTR	Select Energy Services Inc
 WU	Western Union Company
@@ -3663,11 +3575,10 @@ XHR	Xenia Hotels & Resorts Inc
 XIN	Xinyuan Real Estate Co. Ltd ADR
 XL	XL Fleet Corp
 XOM	Exxon Mobil Corp
+XPER	Xperi Inc
 XPEV	Xpeng Inc ADR
 XPO	Xpo Logistics Inc
-XPO.U	Dpcm Cap Inc Unit [Xpoa.U]
-XPO.W	Dpcm Cap Inc WT [Xpoa/W]
-XPOA	Dpcm Capital Inc Cl A
+XPO.P	Xpo Logistics Inc [Xpow]
 XPOF	Xponential Fitness Inc Cl A
 XPRO	Expro Group Hldgs N.V.
 XYF	X Financial ADR
@@ -3681,9 +3592,6 @@ YMM	Full Truck Alliance Co. Ltd ADR
 YOU	Clear Secure Inc Cl A
 YPF	Ypf Sociedad Anonima ADR
 YRD	Yirendai Ltd ADR
-YSA.U	Yellowstone Acq CO UT [Ysac.U]
-YSA.W	Yellowstone Acq CO WT [Ysac.W]
-YSAC	Yellowstone Acquisition Company Cl A
 YSG	Yatsen Holding Ltd ADR
 YTPG	Tpg Pace Beneficial II Corp Cl A
 YUM	Yum! Brands
@@ -3699,12 +3607,11 @@ ZGN.W	Ermenegildo Zegna N.V. WT
 ZH	Zhihu Inc ADR
 ZIM	Zim Integrated Shipping Services Ltd
 ZIP	Ziprecruiter Inc Cl A
-ZME	Zhangmen Education Inc ADR
 ZNH	China Southern Airlines Company ADR
 ZTO	Zto Express Cayman Inc ADR
 ZTR	Virtus Global Divd & Income Fund
 ZTS	Zoetis Inc Cl A
 ZUO	Zuora Inc
 ZVIA	Zevia Pbc Cl A
-ZWS	Zurn Water Solutions Corp
+ZWS	Zurn Elkay Water Solutions Corp
 ZYME	Zymeworks Inc
